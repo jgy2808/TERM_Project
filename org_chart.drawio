@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-18T02:23:20.553Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="lV9xnEswTbtOz5rpo9-U" version="15.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-18T02:26:20.682Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="PRsqab1uIIoDE6ePAnpM" version="15.5.4" type="github">
   <diagram name="Page-1" id="97916047-d0de-89f5-080d-49f4d83e522f">
     <mxGraphModel dx="1452" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -253,7 +253,7 @@
             <mxPoint x="431.2" y="205.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vO5Uiwg48mZxLJuewjus-56" value="섹시한 권모술수" style="rounded=1;fillColor=#CCFFCC;strokeColor=#005700;shadow=1;fontStyle=5;fontSize=21;fontColor=#330000;" vertex="1" parent="1">
+        <mxCell id="vO5Uiwg48mZxLJuewjus-56" value="섹시한 권모술수" style="rounded=1;fillColor=#E6FFCC;shadow=1;fontStyle=5;fontSize=21;" vertex="1" parent="1">
           <mxGeometry x="850" y="420" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vO5Uiwg48mZxLJuewjus-57" value="조장 : 양권모" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
@@ -634,7 +634,7 @@
         <mxCell id="vO5Uiwg48mZxLJuewjus-182" value="게시판 및&#xa;친환경 단체&amp;쇼핑몰 홍보&#xa; 기능 구현" style="rounded=1;fillColor=#B3FF66;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#330000;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="1092" y="985.5" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vO5Uiwg48mZxLJuewjus-183" value="각종 에러사항 공유 및 해결" style="rounded=1;fillColor=#FFFF99;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#330000;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="vO5Uiwg48mZxLJuewjus-183" value="PWA기술 적용" style="rounded=1;fillColor=#FFFF99;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#330000;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="1351.2" y="985.5" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vO5Uiwg48mZxLJuewjus-184" value="조장 : 양권모" style="rounded=1;fillColor=#009900;strokeColor=#CCFF99;shadow=1;fontStyle=1;fontSize=19;fontColor=#FFFFFF;" vertex="1" parent="1">
