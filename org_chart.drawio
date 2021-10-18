@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-18T02:20:20.306Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="2MdCt5F4ZOidLXW07luc" version="15.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-18T02:21:51.384Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="HjjR932RcVvfhfo2iU41" version="15.5.4" type="github">
   <diagram name="Page-1" id="97916047-d0de-89f5-080d-49f4d83e522f">
     <mxGraphModel dx="1452" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -253,7 +253,7 @@
             <mxPoint x="431.2" y="205.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vO5Uiwg48mZxLJuewjus-56" value="섹시한 권모술수" style="rounded=1;fillColor=#006600;strokeColor=#005700;shadow=1;fontStyle=5;fontSize=21;fontColor=#330000;gradientColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="vO5Uiwg48mZxLJuewjus-56" value="섹시한 권모술수" style="rounded=1;fillColor=#CCFFCC;strokeColor=#005700;shadow=1;fontStyle=5;fontSize=21;fontColor=#330000;" vertex="1" parent="1">
           <mxGeometry x="850" y="420" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vO5Uiwg48mZxLJuewjus-57" value="조장 : 양권모" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
@@ -592,7 +592,7 @@
         <mxCell id="vO5Uiwg48mZxLJuewjus-168" value="주제 구상" style="rounded=1;fillColor=#FFFF99;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#330000;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="1351.2" y="715.5" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vO5Uiwg48mZxLJuewjus-169" value="자료 조사" style="rounded=1;fillColor=#FFFF99;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#330000;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="vO5Uiwg48mZxLJuewjus-169" value="공통 자료 조사" style="rounded=1;fillColor=#FFFF99;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#330000;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="1351.2" y="805.5" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vO5Uiwg48mZxLJuewjus-170" value="PPT 내용 정리" style="rounded=1;fillColor=#B3FF66;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#330000;fontSize=14;" vertex="1" parent="1">
@@ -637,7 +637,7 @@
         <mxCell id="vO5Uiwg48mZxLJuewjus-183" value="각종 에러사항 공유 및 해결" style="rounded=1;fillColor=#FFFF99;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#330000;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="1351.2" y="985.5" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vO5Uiwg48mZxLJuewjus-184" value="조장 : 양권모" style="rounded=1;fillColor=#336600;strokeColor=#CCFF99;shadow=1;fontStyle=1;fontSize=19;fontColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="vO5Uiwg48mZxLJuewjus-184" value="조장 : 양권모" style="rounded=1;fillColor=#009900;strokeColor=#CCFF99;shadow=1;fontStyle=1;fontSize=19;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="282" y="625.5" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vO5Uiwg48mZxLJuewjus-185" value="팀원 : 이은성" style="rounded=1;fillColor=#66CC00;strokeColor=#33FF33;shadow=1;fontStyle=1;fontSize=19;" vertex="1" parent="1">
