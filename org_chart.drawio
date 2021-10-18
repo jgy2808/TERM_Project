@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-15T07:52:59.250Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="xJ6P4v0l_shZdWRVaKkc" version="15.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-18T02:20:20.306Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="2MdCt5F4ZOidLXW07luc" version="15.5.4" type="github">
   <diagram name="Page-1" id="97916047-d0de-89f5-080d-49f4d83e522f">
-    <mxGraphModel dx="1753" dy="681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1452" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,16 +10,16 @@
         <mxCell id="8" value="조장 : 양권모" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="282" y="625.5" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9" value="중간고사 발표" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="9" value="테이블 설계" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="282" y="715.5" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="10" value="UML 제작" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="282" y="805.5" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="11" value="테이블 설계" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="11" value="분리수거 검색 기능 구현" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="282" y="895.5" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="12" value="분리수거 검색 기능 구현" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="12" value="중간고사 발표" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="282" y="985.5" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="13" value="팀원 : 이은성" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
@@ -28,25 +28,25 @@
         <mxCell id="14" value="PPT 제작" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="552" y="715.5" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="15" value="로고 및 UI 설계서 제작&#xa;(친환경 지수 화면)" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="15" value="UI 설계서 제작&#xa;(친환경 지수 화면)" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="552" y="805.5" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="16" value="지도 기능 및 &#xa;쓰레기 배출 시간&amp;요일 알림 &#xa;기능 구현" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="16" value="로고 디자인" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="552" y="895.5" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="18" value="팀원 : 정구연" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="842" y="625.5" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="19" value="ERD, 테이블 설계서 제작" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="19" value="ERD제작" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="842" y="715.5" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="20" value="UI 설계서 제작&#xa;(검색 화면)" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="842" y="805.5" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="21" value="로그인 기능 및 친환경 지수&#xa;기능 구현" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="21" value="테이블 설계서 제작" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="842" y="895.5" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="22" value="" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="22" value="로그인 기능 및 친환경 지수&#xa;기능 구현" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="842" y="985.5" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="23" value="팀원 : 윤성빈" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
@@ -58,7 +58,7 @@
         <mxCell id="25" value="UI 설계서 제작&#xa;(알림 시간 설정 및 &#xa;친환경 사이트 소개 화면)" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="1092" y="805.5" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JcWM8oOSAUvYEdA_p9wD-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#B3B3B3;" edge="1" parent="1" source="26" target="25">
+        <mxCell id="JcWM8oOSAUvYEdA_p9wD-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#B3B3B3;" parent="1" source="26" target="25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="26" value="일정표 제작" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
@@ -193,34 +193,34 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="JcWM8oOSAUvYEdA_p9wD-56" value="" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="JcWM8oOSAUvYEdA_p9wD-56" value="지도 기능 및&#xa;쓰레기 배출 시간&amp;요일 알림&#xa;기능 구현" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="552" y="985.5" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JcWM8oOSAUvYEdA_p9wD-57" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;fillColor=#B3B3B3;" edge="1" parent="1" target="JcWM8oOSAUvYEdA_p9wD-56">
+        <mxCell id="JcWM8oOSAUvYEdA_p9wD-57" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;fillColor=#B3B3B3;" parent="1" target="JcWM8oOSAUvYEdA_p9wD-56" edge="1">
           <mxGeometry x="332" y="205.5" width="100" height="100" as="geometry">
             <mxPoint x="652" y="955.4999999999998" as="sourcePoint" />
             <mxPoint x="432" y="205.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JcWM8oOSAUvYEdA_p9wD-58" value="공통 업무" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="JcWM8oOSAUvYEdA_p9wD-58" value="공통 업무" style="rounded=1;fillColor=#CCCC00;strokeColor=#33FF33;shadow=1;fontStyle=1;fontSize=19;" parent="1" vertex="1">
           <mxGeometry x="1351.2" y="625.5" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JcWM8oOSAUvYEdA_p9wD-59" value="자료 조사" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="JcWM8oOSAUvYEdA_p9wD-59" value="주제 구상" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="1351.2" y="715.5" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JcWM8oOSAUvYEdA_p9wD-60" value="" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="JcWM8oOSAUvYEdA_p9wD-60" value="자료 조사" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="1351.2" y="805.5" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JcWM8oOSAUvYEdA_p9wD-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#B3B3B3;" edge="1" parent="1" source="JcWM8oOSAUvYEdA_p9wD-62" target="JcWM8oOSAUvYEdA_p9wD-60">
+        <mxCell id="JcWM8oOSAUvYEdA_p9wD-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#B3B3B3;" parent="1" source="JcWM8oOSAUvYEdA_p9wD-62" target="JcWM8oOSAUvYEdA_p9wD-60" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JcWM8oOSAUvYEdA_p9wD-62" value="" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="JcWM8oOSAUvYEdA_p9wD-62" value="팀 로고 구상" style="rounded=1;fillColor=#FFFF99;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#330000;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="1351.2" y="895.5" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JcWM8oOSAUvYEdA_p9wD-63" value="" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="JcWM8oOSAUvYEdA_p9wD-63" value="각종 에러사항 공유 및 해결" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="1351.2" y="985.5" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JcWM8oOSAUvYEdA_p9wD-64" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="JcWM8oOSAUvYEdA_p9wD-58" source="2">
+        <mxCell id="JcWM8oOSAUvYEdA_p9wD-64" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="2" target="JcWM8oOSAUvYEdA_p9wD-58" edge="1">
           <mxGeometry x="281.2" y="165.5" width="100" height="100" as="geometry">
             <mxPoint x="940" y="480" as="sourcePoint" />
             <mxPoint x="381.2" y="165.5" as="targetPoint" />
@@ -229,29 +229,422 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="JcWM8oOSAUvYEdA_p9wD-65" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;fillColor=#B3B3B3;" edge="1" parent="1" source="JcWM8oOSAUvYEdA_p9wD-58" target="JcWM8oOSAUvYEdA_p9wD-59">
+        <mxCell id="JcWM8oOSAUvYEdA_p9wD-65" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;fillColor=#B3B3B3;" parent="1" source="JcWM8oOSAUvYEdA_p9wD-58" target="JcWM8oOSAUvYEdA_p9wD-59" edge="1">
           <mxGeometry x="331.2" y="175.5" width="100" height="100" as="geometry">
             <mxPoint x="331.2" y="275.5" as="sourcePoint" />
             <mxPoint x="431.2" y="175.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JcWM8oOSAUvYEdA_p9wD-66" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;fillColor=#B3B3B3;" edge="1" parent="1" source="JcWM8oOSAUvYEdA_p9wD-59" target="JcWM8oOSAUvYEdA_p9wD-60">
+        <mxCell id="JcWM8oOSAUvYEdA_p9wD-66" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;fillColor=#B3B3B3;" parent="1" source="JcWM8oOSAUvYEdA_p9wD-59" target="JcWM8oOSAUvYEdA_p9wD-60" edge="1">
           <mxGeometry x="331.2" y="185.5" width="100" height="100" as="geometry">
             <mxPoint x="331.2" y="285.5" as="sourcePoint" />
             <mxPoint x="431.2" y="185.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JcWM8oOSAUvYEdA_p9wD-67" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;fillColor=#B3B3B3;" edge="1" parent="1" source="JcWM8oOSAUvYEdA_p9wD-60" target="JcWM8oOSAUvYEdA_p9wD-62">
+        <mxCell id="JcWM8oOSAUvYEdA_p9wD-67" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;fillColor=#B3B3B3;" parent="1" source="JcWM8oOSAUvYEdA_p9wD-60" target="JcWM8oOSAUvYEdA_p9wD-62" edge="1">
           <mxGeometry x="331.2" y="195.5" width="100" height="100" as="geometry">
             <mxPoint x="331.2" y="295.5" as="sourcePoint" />
             <mxPoint x="431.2" y="195.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JcWM8oOSAUvYEdA_p9wD-68" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;fillColor=#B3B3B3;" edge="1" parent="1" source="JcWM8oOSAUvYEdA_p9wD-62" target="JcWM8oOSAUvYEdA_p9wD-63">
+        <mxCell id="JcWM8oOSAUvYEdA_p9wD-68" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;fillColor=#B3B3B3;" parent="1" source="JcWM8oOSAUvYEdA_p9wD-62" target="JcWM8oOSAUvYEdA_p9wD-63" edge="1">
           <mxGeometry x="331.2" y="205.5" width="100" height="100" as="geometry">
             <mxPoint x="331.2" y="305.5" as="sourcePoint" />
             <mxPoint x="431.2" y="205.5" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-56" value="섹시한 권모술수" style="rounded=1;fillColor=#006600;strokeColor=#005700;shadow=1;fontStyle=5;fontSize=21;fontColor=#330000;gradientColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="850" y="420" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-57" value="조장 : 양권모" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="282" y="625.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-58" value="조장 : 양권모" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="282" y="625.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-59" value="팀원 : 이은성" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="552" y="625.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-60" value="팀원 : 정구연" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="842" y="625.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-61" value="조장 : 양권모" style="rounded=1;fillColor=#66CC00;strokeColor=#33FF33;shadow=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="282" y="625.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-62" value="팀원 : 이은성" style="rounded=1;fillColor=#66CC00;strokeColor=#33FF33;shadow=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="552" y="625.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-63" value="팀원 : 정구연" style="rounded=1;fillColor=#66CC00;strokeColor=#33FF33;shadow=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="842" y="625.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-64" value="팀원 : 윤성빈" style="rounded=1;fillColor=#66CC00;strokeColor=#33FF33;shadow=1;fontStyle=1;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="1092" y="625.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-65" value="테이블 설계" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="282" y="715.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-66" value="PPT 제작" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="552" y="715.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-67" value="ERD제작" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="842" y="715.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-68" value="테이블 설계" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="282" y="715.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-69" value="PPT 제작" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="552" y="715.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-70" value="ERD제작" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="842" y="715.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-71" value="주제 구상" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1351.2" y="715.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-72" value="자료 조사" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1351.2" y="805.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-73" value="PPT 내용 정리" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1092" y="715.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-74" value="UI 설계서 제작&#xa;(알림 시간 설정 및 &#xa;친환경 사이트 소개 화면)" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1092" y="805.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-75" value="UI 설계서 제작&#xa;(검색 화면)" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="842" y="805.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-76" value="UI 설계서 제작&#xa;(친환경 지수 화면)" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="552" y="805.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-77" value="UML 제작" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="282" y="805.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-78" value="분리수거 검색 기능 구현" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="282" y="895.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-79" value="중간고사 발표" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="282" y="985.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-80" value="지도 기능 및&#xa;쓰레기 배출 시간&amp;요일 알림&#xa;기능 구현" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="552" y="985.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-81" value="테이블 설계" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="282" y="715.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-82" value="PPT 제작" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="552" y="715.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-83" value="ERD제작" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="842" y="715.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-84" value="주제 구상" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1351.2" y="715.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-85" value="자료 조사" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1351.2" y="805.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-86" value="PPT 내용 정리" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1092" y="715.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-87" value="UI 설계서 제작&#xa;(알림 시간 설정 및 &#xa;친환경 사이트 소개 화면)" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1092" y="805.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-88" value="UI 설계서 제작&#xa;(검색 화면)" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="842" y="805.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-89" value="UI 설계서 제작&#xa;(친환경 지수 화면)" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="552" y="805.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-90" value="UML 제작" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="282" y="805.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-91" value="분리수거 검색 기능 구현" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="282" y="895.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-92" value="중간고사 발표" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="282" y="985.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-93" value="지도 기능 및&#xa;쓰레기 배출 시간&amp;요일 알림&#xa;기능 구현" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="552" y="985.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-94" value="테이블 설계" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="282" y="715.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-95" value="PPT 제작" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="552" y="715.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-96" value="ERD제작" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="842" y="715.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-97" value="주제 구상" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1351.2" y="715.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-98" value="자료 조사" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1351.2" y="805.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-99" value="PPT 내용 정리" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1092" y="715.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-100" value="UI 설계서 제작&#xa;(알림 시간 설정 및 &#xa;친환경 사이트 소개 화면)" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1092" y="805.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-101" value="UI 설계서 제작&#xa;(검색 화면)" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="842" y="805.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-102" value="UI 설계서 제작&#xa;(친환경 지수 화면)" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="552" y="805.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-103" value="UML 제작" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="282" y="805.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-104" value="분리수거 검색 기능 구현" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="282" y="895.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-105" value="중간고사 발표" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="282" y="985.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-106" value="지도 기능 및&#xa;쓰레기 배출 시간&amp;요일 알림&#xa;기능 구현" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="552" y="985.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-107" value="로고 디자인" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="552" y="895.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-108" value="테이블 설계서 제작" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="842" y="895.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-109" value="로그인 기능 및 친환경 지수&#xa;기능 구현" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="842" y="985.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-110" value="테이블 설계" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="282" y="715.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-111" value="PPT 제작" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="552" y="715.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-112" value="ERD제작" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="842" y="715.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-113" value="주제 구상" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1351.2" y="715.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-114" value="자료 조사" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1351.2" y="805.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-115" value="PPT 내용 정리" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1092" y="715.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-116" value="UI 설계서 제작&#xa;(알림 시간 설정 및 &#xa;친환경 사이트 소개 화면)" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1092" y="805.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-117" value="UI 설계서 제작&#xa;(검색 화면)" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="842" y="805.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-118" value="UI 설계서 제작&#xa;(친환경 지수 화면)" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="552" y="805.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-119" value="UML 제작" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="282" y="805.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-120" value="분리수거 검색 기능 구현" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="282" y="895.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-121" value="중간고사 발표" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="282" y="985.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-122" value="지도 기능 및&#xa;쓰레기 배출 시간&amp;요일 알림&#xa;기능 구현" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="552" y="985.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-123" value="로고 디자인" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="552" y="895.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-124" value="테이블 설계서 제작" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="842" y="895.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-125" value="로그인 기능 및 친환경 지수&#xa;기능 구현" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="842" y="985.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-126" value="일정표 제작" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1092" y="895.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-127" value="게시판 및&#xa;친환경 단체&amp;쇼핑몰 홍보&#xa; 기능 구현" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1092" y="985.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-128" value="테이블 설계" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="282" y="715.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-129" value="PPT 제작" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="552" y="715.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-130" value="ERD제작" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="842" y="715.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-131" value="주제 구상" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1351.2" y="715.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-132" value="자료 조사" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1351.2" y="805.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-133" value="PPT 내용 정리" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1092" y="715.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-134" value="UI 설계서 제작&#xa;(알림 시간 설정 및 &#xa;친환경 사이트 소개 화면)" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1092" y="805.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-135" value="UI 설계서 제작&#xa;(검색 화면)" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="842" y="805.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-136" value="UI 설계서 제작&#xa;(친환경 지수 화면)" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="552" y="805.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-137" value="UML 제작" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="282" y="805.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-138" value="분리수거 검색 기능 구현" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="282" y="895.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-139" value="중간고사 발표" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="282" y="985.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-140" value="지도 기능 및&#xa;쓰레기 배출 시간&amp;요일 알림&#xa;기능 구현" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="552" y="985.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-141" value="로고 디자인" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="552" y="895.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-142" value="테이블 설계서 제작" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="842" y="895.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-143" value="로그인 기능 및 친환경 지수&#xa;기능 구현" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="842" y="985.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-144" value="일정표 제작" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1092" y="895.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-145" value="게시판 및&#xa;친환경 단체&amp;쇼핑몰 홍보&#xa; 기능 구현" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1092" y="985.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-146" value="테이블 설계" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="282" y="715.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-147" value="PPT 제작" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="552" y="715.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-148" value="ERD제작" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="842" y="715.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-149" value="주제 구상" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1351.2" y="715.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-150" value="자료 조사" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1351.2" y="805.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-151" value="PPT 내용 정리" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1092" y="715.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-152" value="UI 설계서 제작&#xa;(알림 시간 설정 및 &#xa;친환경 사이트 소개 화면)" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1092" y="805.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-153" value="UI 설계서 제작&#xa;(검색 화면)" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="842" y="805.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-154" value="UI 설계서 제작&#xa;(친환경 지수 화면)" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="552" y="805.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-155" value="UML 제작" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="282" y="805.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-156" value="분리수거 검색 기능 구현" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="282" y="895.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-157" value="중간고사 발표" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="282" y="985.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-158" value="지도 기능 및&#xa;쓰레기 배출 시간&amp;요일 알림&#xa;기능 구현" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="552" y="985.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-159" value="로고 디자인" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="552" y="895.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-160" value="테이블 설계서 제작" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="842" y="895.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-161" value="로그인 기능 및 친환경 지수&#xa;기능 구현" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="842" y="985.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-162" value="일정표 제작" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1092" y="895.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-163" value="게시판 및&#xa;친환경 단체&amp;쇼핑몰 홍보&#xa; 기능 구현" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1092" y="985.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-164" value="각종 에러사항 공유 및 해결" style="rounded=1;fillColor=#B3B3B3;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1351.2" y="985.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-165" value="테이블 설계" style="rounded=1;fillColor=#B3FF66;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#330000;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="282" y="715.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-166" value="PPT 제작" style="rounded=1;fillColor=#B3FF66;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#330000;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="552" y="715.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-167" value="ERD제작" style="rounded=1;fillColor=#B3FF66;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#330000;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="842" y="715.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-168" value="주제 구상" style="rounded=1;fillColor=#FFFF99;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#330000;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1351.2" y="715.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-169" value="자료 조사" style="rounded=1;fillColor=#FFFF99;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#330000;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1351.2" y="805.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-170" value="PPT 내용 정리" style="rounded=1;fillColor=#B3FF66;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#330000;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1092" y="715.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-171" value="UI 설계서 제작&#xa;(알림 시간 설정 및 &#xa;친환경 사이트 소개 화면)" style="rounded=1;fillColor=#B3FF66;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#330000;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1092" y="805.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-172" value="UI 설계서 제작&#xa;(검색 화면)" style="rounded=1;fillColor=#B3FF66;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#330000;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="842" y="805.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-173" value="UI 설계서 제작&#xa;(친환경 지수 화면)" style="rounded=1;fillColor=#B3FF66;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#330000;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="552" y="805.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-174" value="UML 제작" style="rounded=1;fillColor=#B3FF66;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#330000;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="282" y="805.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-175" value="분리수거 검색 기능 구현 및 &#xa;인공지능 학습 구현" style="rounded=1;fillColor=#B3FF66;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#330000;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="282" y="895.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-176" value="중간고사 발표" style="rounded=1;fillColor=#B3FF66;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#330000;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="282" y="985.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-177" value="지도 기능 및&#xa;쓰레기 배출 시간&amp;요일 알림&#xa;기능 구현" style="rounded=1;fillColor=#B3FF66;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#330000;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="552" y="985.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-178" value="로고 디자인" style="rounded=1;fillColor=#B3FF66;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#330000;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="552" y="895.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-179" value="테이블 설계서 제작" style="rounded=1;fillColor=#B3FF66;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#330000;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="842" y="895.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-180" value="로그인 기능 및 친환경 지수&#xa;기능 구현" style="rounded=1;fillColor=#B3FF66;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#330000;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="842" y="985.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-181" value="일정표 제작" style="rounded=1;fillColor=#B3FF66;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#330000;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1092" y="895.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-182" value="게시판 및&#xa;친환경 단체&amp;쇼핑몰 홍보&#xa; 기능 구현" style="rounded=1;fillColor=#B3FF66;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#330000;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1092" y="985.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-183" value="각종 에러사항 공유 및 해결" style="rounded=1;fillColor=#FFFF99;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#330000;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1351.2" y="985.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-184" value="조장 : 양권모" style="rounded=1;fillColor=#336600;strokeColor=#CCFF99;shadow=1;fontStyle=1;fontSize=19;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="282" y="625.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-185" value="팀원 : 이은성" style="rounded=1;fillColor=#66CC00;strokeColor=#33FF33;shadow=1;fontStyle=1;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="552" y="625.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vO5Uiwg48mZxLJuewjus-186" value="팀원 : 정구연" style="rounded=1;fillColor=#66CC00;strokeColor=#33FF33;shadow=1;fontStyle=1;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="842" y="625.5" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
