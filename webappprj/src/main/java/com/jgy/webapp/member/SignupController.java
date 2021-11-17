@@ -3,13 +3,16 @@ package com.jgy.webapp.member;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.SQLException;
+import java.util.Map;
 
 import javax.servlet.http.HttpServletResponse;
 
+import org.apache.ibatis.annotations.Param;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -26,50 +29,59 @@ public class SignupController {
 	@Autowired
 	private CustomerMapper customerMapper;
 	
+	private boolean idDuplication = false;
+	private String idChecked;
+	
 	@RequestMapping("/signup")
 	public String signup() {
 		return "term/signup/signup";
 	}
-	
-	@PostMapping("/signup.do")
-	public String signup_do(String name, String id, String pw, String pw_check, 
-							String phone, String phone_certification, String email,
-							String nickname, String area,
+
+//	String name, String id, String pw, String pw_check, 
+//		String email, String nickname, String area,
+	@ResponseBody
+	@RequestMapping(value = "/signup/signup.do", produces = "application/json; charset=UTF-8", method = RequestMethod.POST)
+	public String signup_do(@RequestBody Map<String, String> map,
 							HttpServletResponse response) throws SQLException, IOException {
-		boolean idChk = false;
-		System.out.println("id : " + id);
-		System.out.println("pw : " + pw);
+		System.out.println("name : " + map.get("name"));
+		System.out.println("id : " + map.get("id"));
+		System.out.println("pw : " + map.get("pw"));
+		System.out.println("pw_check : " + map.get("pw_check"));
+		System.out.println("email : " + map.get("email"));
+		System.out.println("nickname : " + map.get("nickname"));
+		System.out.println("area : " + map.get("area"));
 		BCryptPasswordEncoder bCryptPasswordEncoder = new BCryptPasswordEncoder();
-		pw = bCryptPasswordEncoder.encode(pw);
 		
-		if (customerMapper.selectUserIdDistinct(id) > 0) {
-			response.setContentType("text/html; charset=euc-kr");
-			PrintWriter out = response.getWriter();
-			out.println("<script>alert('중복된 아이디가 존재합니다.'); </script>");
-			out.flush();
-		} else {
-			response.setContentType("text/html; charset=euc-kr");
-			PrintWriter out = response.getWriter();
-			out.println("<script>alert('사용 가능한 아이디입니다.'); </script>");
-			out.flush();
-			idChk = true;
-		}
 		
-		if (customerMapper.insertUserInfo(id, pw, "USER") == 1) {
-			return "redirect:/board/login";
-		} else {
-			response.setContentType("text/html; charset=euc-kr");
-			PrintWriter out = response.getWriter();
-			out.println("<script>alert('인증번호가 틀립니다'); </script>");
-			out.flush();
-			return "redirect:/signup";
-		}
+//		if (!idChecked.equals(id) || !idDuplication) {
+//			return "id";
+//		}
+//		
+//		if (!pw.matches("^(?=.*[A-Za-z])(?=.*\\d)(?=.*[$@$!%*#?&])[A-Za-z\\d$@$!%*#?&]{8,}$")) {
+//			return "pw";
+//		} 
+////		else {
+////			pw = bCryptPasswordEncoder.encode(pw);
+////		}
+//		
+//		if (!pw.equals(pw_check)) {
+//			return "pw_check";
+//		}
+		
+		//customerMapper.insertUserInfo(id, pw, "USER");
+		return "success";
 	}
 	
-	@RequestMapping(value = "/idChecking", method = RequestMethod.POST)
 	@ResponseBody
-	public void idChecking() {
-		System.out.println("SignupController : idChecking()");
+	@RequestMapping(value = "/signup/IdChecking.do", produces = "application/text; charset=UTF-8", method = RequestMethod.POST)
+	public String idChecking(String id) {
+		System.out.println("SignupController idChecking() : " + id);
+		if (customerMapper.selectUserIdDistinct(id) == 0) {
+			idDuplication = true;
+			idChecked = id;
+			return "사용 가능한 아이디입니다.";
+		}
+		return "이미 존재하는 아이디입니다.";
 	}
 	
 	

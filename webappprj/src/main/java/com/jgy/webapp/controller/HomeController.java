@@ -24,25 +24,25 @@ public class HomeController {
 	//@Autowired
 	//private MemberService jcon;
 	
-	@RequestMapping("/tm")
-	public String teachableMachine(HttpServletRequest req) {
-		HttpSession session = req.getSession();
-		if (session.getAttribute("userIP") != null && !session.getAttribute("userIP").equals(req.getRemoteAddr())) {
-			// 세션 이름을 바꾸고
-			req.changeSessionId();
-			session = req.getSession();
-			// 현재 세션의 속성을 지우면
-			session.removeAttribute("userID");
-			session.removeAttribute("userIP");
-			// 과연 이름 바꾸기 전의 세션의 속성은 지워질까용??
-			
-			System.out.println("session userIP : " + session.getAttribute("userIP"));
-			System.out.println("getRemoteAddr : " + req.getRemoteAddr());
-
-//			return "redirect:";
-		}
-		return "tm"; 
-	}
+//	@RequestMapping("/tm")
+//	public String teachableMachine(HttpServletRequest req) {
+//		HttpSession session = req.getSession();
+//		if (session.getAttribute("userIP") != null && !session.getAttribute("userIP").equals(req.getRemoteAddr())) {
+//			// 세션 이름을 바꾸고
+//			req.changeSessionId();
+//			session = req.getSession();
+//			// 현재 세션의 속성을 지우면
+//			session.removeAttribute("userID");
+//			session.removeAttribute("userIP");
+//			// 과연 이름 바꾸기 전의 세션의 속성은 지워질까용??
+//			
+//			System.out.println("session userIP : " + session.getAttribute("userIP"));
+//			System.out.println("getRemoteAddr : " + req.getRemoteAddr());
+//
+////			return "redirect:";
+//		}
+//		return "tm"; 
+//	}
 	
 //	@PostMapping("/admin/board")
 //	public String Adminboard(HttpServletRequest req, Model model) throws SQLException {
