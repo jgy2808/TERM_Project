@@ -20,18 +20,11 @@ public class CustomUserDetails implements UserDetails{
 	private static final long serialVersionUID = 1L;
 	
 	
-	private String id;
-	private String pw;
-	private String auth;
+	private String userid;
+	private String password;
+//	private String auth;
 	
 	private Collection<? extends GrantedAuthority> authorities;
-		
-//	@Builder
-//	public CustomUserDetails(String id, String pw, String auth) {
-//		this.id = id;
-//		this.pw = pw;
-//		this.auth = auth;
-//	}
 	
 	@Override
 	public Collection<? extends GrantedAuthority> getAuthorities() {
@@ -42,18 +35,22 @@ public class CustomUserDetails implements UserDetails{
 	@Override
 	public String getPassword() {
 		System.out.println("CustomUserDetails : getPassword");
-		return pw;
+		return password;
 	}
 	
-	public String getAuth() {
-		System.out.println("CustomUserDetails : getAuth");
-		return auth;
+	public void setPassword(String password) {
+		this.password = password;
 	}
+	
+//	public String getAuth() {
+//		System.out.println("CustomUserDetails : getAuth");
+//		return auth;
+//	}
 
 	@Override
 	public String getUsername() {
 		System.out.println("CustomUserDetails : getUsername");
-		return id;
+		return userid;
 	}
 
 	@Override

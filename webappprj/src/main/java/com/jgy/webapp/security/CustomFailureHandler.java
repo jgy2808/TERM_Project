@@ -22,6 +22,4 @@ public class CustomFailureHandler implements AuthenticationFailureHandler {
 		System.out.println("Exception message : " + exception.getMessage());
 		
 	}
-	
-
 }

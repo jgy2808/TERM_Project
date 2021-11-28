@@ -28,18 +28,18 @@ public class CustomAuthProvider implements AuthenticationProvider {
 		System.out.println("CustomAuthProvider : authenticate()");
 		String id = authentication.getName();
 		String pwd = (String) authentication.getCredentials();
-		System.out.println("CustomAuthProvider : getName : " + id);
-		System.out.println("CustomAuthProvider : getCredentials : " + pwd);
+//		System.out.println("CustomAuthProvider : getName : " + id);
+//		System.out.println("CustomAuthProvider : getCredentials : " + pwd);
 		CustomUserDetails user = (CustomUserDetails) customUserDetailsService.loadUserByUsername(id);
-		System.out.println("CustomAuthProvider : userPW : " + user.getPassword());
+//		System.out.println("CustomAuthProvider : userPW : " + user.getPassword());
 		if (!passwordEncoder.matches(pwd, user.getPassword())) {
-			System.out.println("1");
 			throw new BadCredentialsException("비밀번호가 맞지 않습니다.");
 		}
-		System.out.println("CustomAuthProvider : end if");
 		List<GrantedAuthority> authorities = new ArrayList<>();
-		authorities.add(new SimpleGrantedAuthority("ROLE_" + user.getAuth()));
-		return new UsernamePasswordAuthenticationToken(id, pwd, authorities);
+//		authorities.add(new SimpleGrantedAuthority("ROLE_" + user.getAuth()));
+		authorities.add(new SimpleGrantedAuthority("ROLE_USER"));
+		user.setPassword(null);
+		return new UsernamePasswordAuthenticationToken(id, null, authorities);
 	}
 
 	@Override

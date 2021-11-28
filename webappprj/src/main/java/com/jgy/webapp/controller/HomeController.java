@@ -71,15 +71,12 @@ public class HomeController {
 //	}
 	
 	@RequestMapping("/board")
-	public String home() {
+	public String home(HttpServletRequest req) {
 		System.out.println("called home");
+//		HttpSession session = req.getSession();
+//		if (session.getAttribute("userIP") != null && !session.getAttribute("userIP").equals(req.getRemoteAddr())) {
+//			session.invalidate();
+//		}
 		return "term/board/board";
 	}
-	
-	@RequestMapping("/board/login")
-	public String board_login() {
-		System.out.println("HomeController : called login");
-		return "term/login/login";
-	}
-	
 }
