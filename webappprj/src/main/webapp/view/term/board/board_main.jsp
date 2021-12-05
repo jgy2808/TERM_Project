@@ -90,7 +90,7 @@
 											role="button" href="/board_write">글쓰기</a>
 									</c:when>
 									<c:otherwise>
-										<span class="navbar-text"> ${userID}님,반갑습니다! </span>
+										<span class="navbar-text"> <a href="/changepw">${userID}</a>님,반갑습니다! </span>
 										<a class="btn btn-light action-button" id="logout_btn"
 											role="button" href="/logout.do">Log Out</a>
 										<a class="btn btn-light action-button" id="Board_Write"
