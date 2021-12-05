@@ -7,12 +7,9 @@
 <meta name="viewport"
 	content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 <title>signup</title>
-<link rel="stylesheet"
-	href="../resource/term/signup/assets/bootstrap/css/bootstrap.min.css">
-<link rel="stylesheet"
-	href="../resource/term/signup/assets/fonts/font-awesome.min.css">
-<link rel="stylesheet"
-	href="../resource/term/signup/assets/css/styles.css">
+<link rel="stylesheet" href="../resource/term/signup/assets/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="../resource/term/signup/assets/fonts/font-awesome.min.css">
+<link rel="stylesheet" href="../resource/term/signup/assets/css/styles.css">
 <script
 	src="../resource/term/signup/assets/bootstrap/js/bootstrap.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
