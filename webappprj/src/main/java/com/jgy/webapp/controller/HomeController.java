@@ -66,10 +66,7 @@ public class HomeController {
 //			return "user/board_user";
 //		}
 //	}
-//	@GetMapping("/error/accessDenied")
-//	public String accessDenied() {
-//		return "error/accessDenied";
-//	}
+
 //	
 	@RequestMapping("/view/index")
 	public String recycle(String object, Model model) throws SQLException {
@@ -106,12 +103,12 @@ public class HomeController {
 		return "term/board/board_main";
 	}
 	
-	@RequestMapping("/board_write")
+	@RequestMapping("/board_main/board_write")
 	public String board_write() {
 		return "term/board/board_write";
 	}
 	
-	@RequestMapping("/detail/**")
+	@RequestMapping("/board_main/detail/**")
 	public String board_detail(HttpServletResponse response, HttpServletRequest request) throws Exception {
 		HttpSession session = request.getSession();
 		System.out.println(request.getRequestURI());
