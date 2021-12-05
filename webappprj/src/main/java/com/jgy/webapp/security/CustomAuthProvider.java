@@ -34,12 +34,14 @@ public class CustomAuthProvider implements AuthenticationProvider {
 //		System.out.println("CustomAuthProvider : userPW : " + user.getPassword());
 		if (!passwordEncoder.matches(pwd, user.getPassword())) {
 			throw new BadCredentialsException("비밀번호가 맞지 않습니다.");
+		} else {
+			System.out.println("Password Matches Success !!");
 		}
 		List<GrantedAuthority> authorities = new ArrayList<>();
 //		authorities.add(new SimpleGrantedAuthority("ROLE_" + user.getAuth()));
 		authorities.add(new SimpleGrantedAuthority("ROLE_USER"));
-		user.setPassword(null);
-		return new UsernamePasswordAuthenticationToken(id, null, authorities);
+//		user.setPassword(null);
+		return new UsernamePasswordAuthenticationToken(id, pwd, authorities);
 	}
 
 	@Override

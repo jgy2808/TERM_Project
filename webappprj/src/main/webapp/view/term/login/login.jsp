@@ -41,7 +41,7 @@
 			</fieldset>
 			<div class="text-start d-flex align-items-center"
 				style="width: 80%; background: rgb(255, 255, 255); border-style: none; margin-top: 5px; max-width: 400px;">
-				<input type="checkbox" id="maintain_login" name="remember-me" style="width: 25px; height: 25px;"> 
+				<input type="checkbox" id="maintain_login" name="remember_me" style="width: 25px; height: 25px;"> 
 				<label class="form-label" style="margin-left: 5px;">자동 로그인</label>
 			</div>
 			<button class="btn btn-primary" type="submit"

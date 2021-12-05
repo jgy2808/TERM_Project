@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>eco_calc</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <div class="d-flex justify-content-between align-items-center" id="header" style="height: 50px;text-align: center;background: rgb(92, 198, 186);"><i class="fa fa-chevron-left" style="width: 30px;height: 30px;font-size: 24px;color: rgb(255,255,255);"></i><label class="form-label" style="color: rgb(255,255,255);font-size: 24px;">친환경 지수 계산</label><i class="fa fa-ellipsis-v" style="width: 30px;height: 30px;font-size: 24px;color: rgb(255,255,255);"></i></div>
+    <div class="d-flex flex-column align-items-center">
+        <div class="d-flex justify-content-between" style="background: #ffffff;height: 200px;margin: 20px;width: 80%;max-width: 600px;">
+            <div style="background: #ffffff;width: 45%;height: 100%;">
+                <p style="margin-bottom: 0px;height: 70%;background: #ceffe2;">플라스틱1 img</p>
+                <p class="d-flex justify-content-between align-items-center" style="margin-bottom: 0px;height: 30%;background: #fefaee;"><button class="btn btn-primary" type="button" style="width: 40px;height: 40px;margin: 10px;background: rgb(92,198,186);">-</button><span id="plastic_num1">0</span><button class="btn btn-primary" type="button" style="width: 40px;height: 40px;margin: 10px;background: rgb(92,198,186);">+</button></p>
+            </div>
+            <div style="background: #ffffff;width: 45%;height: 100%;">
+                <p style="margin-bottom: 0px;height: 70%;background: #ceffe2;">플라스틱2 img</p>
+                <p class="d-flex justify-content-between align-items-center" style="margin-bottom: 0px;height: 30%;background: #fefaee;"><button class="btn btn-primary" type="button" style="width: 40px;height: 40px;margin: 10px;background: rgb(92,198,186);">-</button><span id="plastic_num2">0</span><button class="btn btn-primary" type="button" style="width: 40px;height: 40px;margin: 10px;background: rgb(92,198,186);">+</button></p>
+            </div>
+        </div>
+        <div class="d-flex justify-content-between" style="background: #ffffff;height: 200px;margin: 20px;width: 80%;max-width: 600px;">
+            <div style="background: #ffffff;width: 45%;height: 100%;">
+                <p style="margin-bottom: 0px;height: 70%;background: #ceffe2;">플라스틱3 img</p>
+                <p class="d-flex justify-content-between align-items-center" style="margin-bottom: 0px;height: 30%;background: #fefaee;"><button class="btn btn-primary" type="button" style="width: 40px;height: 40px;margin: 10px;background: rgb(92,198,186);">-</button><span id="plastic_num3">0</span><button class="btn btn-primary" type="button" style="width: 40px;height: 40px;margin: 10px;background: rgb(92,198,186);">+</button></p>
+            </div>
+            <div style="background: #ffffff;width: 45%;height: 100%;">
+                <p style="margin-bottom: 0px;height: 70%;background: #ceffe2;">플라스틱4 img</p>
+                <p class="d-flex justify-content-between align-items-center" style="margin-bottom: 0px;height: 30%;background: #fefaee;"><button class="btn btn-primary" type="button" style="width: 40px;height: 40px;margin: 10px;background: rgb(92,198,186);">-</button><span id="plastic_num4">0</span><button class="btn btn-primary" type="button" style="width: 40px;height: 40px;margin: 10px;background: rgb(92,198,186);">+</button></p>
+            </div>
+        </div><button class="btn btn-primary" id="eco_calculation" type="button" style="background: rgb(92,198,186);width: 60%;max-width: 400px;margin-bottom: 15px;margin-top: 20px;">계산하기</button>
+        <p id="eco_result" style="width: 80%;background: #b6efe9;padding: 5px;margin-bottom: 0px;"><br><br>친환경 지수 계산 결과 영역<br><br><br><br></p>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -47,7 +47,7 @@
     			url : "/main/login/foundid/foundid.do",
     			type : "POST",
     			data : JSON.stringify(form),
-    			dataType : "text",
+    			dataType : "text", 
     			contentType : "application/json; charset=UTF-8",
     			success : function(result){
     				if (result === "email fail")

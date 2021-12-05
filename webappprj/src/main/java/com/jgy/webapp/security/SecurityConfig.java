@@ -6,7 +6,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.security.authentication.AuthenticationProvider;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.builders.WebSecurity;
@@ -15,13 +14,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
-import org.springframework.security.web.authentication.AuthenticationFailureHandler;
-import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
-import org.springframework.security.web.authentication.RememberMeServices;
-import org.springframework.security.web.authentication.rememberme.AbstractRememberMeServices;
-import org.springframework.security.web.authentication.rememberme.JdbcTokenRepositoryImpl;
-import org.springframework.security.web.authentication.rememberme.PersistentTokenRepository;
-import org.springframework.security.web.savedrequest.NullRequestCache;
+import org.springframework.security.web.authentication.rememberme.TokenBasedRememberMeServices;
 import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 
 @Configuration
@@ -35,21 +28,24 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	
 	@Autowired
 	private CustomFailureHandler customFailureHandler;
+	
 	@Autowired
 	private CustomUserDetailsService customuserDetailsService;
-	@Autowired
-	private UserDetailsService userDetailsService;
 	
-	@Autowired
-	@Qualifier("dataSource")
-	private DataSource dataSource;
 	
-	@Bean
-	public PersistentTokenRepository persistentTokenRepository() {
-		JdbcTokenRepositoryImpl repo = new JdbcTokenRepositoryImpl();
-		repo.setDataSource(dataSource);
-		return repo;
-	}
+//	@Autowired
+//	private CustomTokenBasedRememberMeServices customTokenBasedRememberMeServices;
+	
+//	@Autowired
+//	@Qualifier("dataSource")
+//	private DataSource dataSource;
+//	
+//	@Bean
+//	public PersistentTokenRepository persistentTokenRepository() {
+//		JdbcTokenRepositoryImpl repo = new JdbcTokenRepositoryImpl();
+//		repo.setDataSource(dataSource);
+//		return repo;
+//	}
 	
 	@Bean
 	public PasswordEncoder passwordEncoder() {
@@ -70,10 +66,11 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 //			.antMatchers("/user/**").hasAnyRole("Role_USER")
 //			.antMatchers("/**").permitAll();
 
-		//.antMatchers("/board_admin").hasAnyRole("ROLE_ADMIN")hasAnyRole("ROLE_USER")
+		//.antMatchers("/board_admin").hasAnyRole("ROLE_ADMIN").hasAnyRole("ROLE_USER")
 		http.authorizeRequests()
 			.antMatchers("/main/**").permitAll()
-			.antMatchers("/board/**").authenticated()
+			//.antMatchers("/main/login").anonymous()
+			.antMatchers("/board_main/**").authenticated()
 			.and()
 				.formLogin()
 					.loginPage("/main/login")
@@ -83,24 +80,40 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 					.failureHandler(customFailureHandler)
 					.failureUrl("/main/login.fail")
 			.and()
-				.rememberMe()
-					.key("spring-remember-me")
-					.rememberMeParameter("remember-me")
-					.alwaysRemember(true)
-					.tokenRepository(persistentTokenRepository())
-			.and()
 				.logout()
 					.logoutRequestMatcher(new AntPathRequestMatcher("/logout.do"))
-					.logoutSuccessUrl("/board")
 					.invalidateHttpSession(true)
-					.deleteCookies("JSESSIONID", "remember-me")
+					.deleteCookies("JSESSIONID")
+					.logoutSuccessUrl("/main/login")
+					//.addLogoutHandler(customLogoutHandler)
+			.and()
+				.rememberMe()
+					.key("uniqueAndSecret")
+//					.rememberMeParameter("remember_me")
+					//.tokenRepository(persistentTokenRepository())
+//			        .userDetailsService(customuserDetailsService)
+			        .authenticationSuccessHandler(customSuccessHandler)
+			        .rememberMeServices(userLoginRememberMeService(customuserDetailsService))
+			.and()
+				.sessionManagement()
+					.sessionFixation().none()
 			.and()
 				.exceptionHandling().accessDeniedPage("/error/accessDenied")
 			.and()
 				.authenticationProvider(authenticationProvider)
-				.csrf().disable();
+				.csrf().disable();	
 	}
 	
+	@Bean
+	public UserLoginRememberMeService userLoginRememberMeService(CustomUserDetailsService userDetailsService) {
+		UserLoginRememberMeService token = new UserLoginRememberMeService(userDetailsService);
+		token.setCookieName("REMEMBER-ME");
+		token.setParameter("remember_me");
+		token.setTokenValiditySeconds(1209600);
+		
+		return token;
+	}
+		
 	@Override
 	protected void configure(AuthenticationManagerBuilder auth) throws Exception {
 		auth.userDetailsService(customuserDetailsService);

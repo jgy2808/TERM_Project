@@ -46,4 +46,29 @@
 		select email
 		from term
 	</select>
+    <select id="list" resultType="com.jgy.webapp.domain.BoardVO">
+        SELECT board_num, userid, board_category, board_title, board_contents, upload_date FROM BOARD order by board_num desc
+    </select>
+    
+    <select id="getCount" resultType="int">
+        SELECT MAX(board_num) FROM BOARD
+    </select>
+    
+    <select id="searchItem" resultType="com.jgy.webapp.domain.BoardVO">
+    	SELECT board_num, userid, board_category, board_title, board_contents, upload_date FROM BOARD WHERE board_num = #{num}
+    </select>
+    
+    <select id="listCate" resultType="com.jgy.webapp.domain.BoardVO">
+        SELECT board_num, userid, board_category, board_title, board_contents, upload_date FROM BOARD where board_category = #{cate} order by board_num desc
+    </select>
+    
+    <insert id="write" parameterType="hashMap">
+    	INSERT INTO
+    	BOARD(board_num,userid,board_category,board_title,board_contents)
+    	values(#{board_num},#{userid},#{category},#{title},#{contents})
+    </insert>
+    
+    <select id="listEco" resultType="com.jgy.webapp.domain.EcoVO">
+        SELECT eco_num, eco_name, eco_category, eco_url, eco_contents FROM ECO_PROMOTE
+    </select>
 </mapper>
