@@ -67,10 +67,4 @@
     <select id="listEco" resultType="com.jgy.webapp.domain.EcoVO">
         SELECT eco_num, eco_name, eco_category, eco_url, eco_contents FROM ECO_PROMOTE
     </select>
-    
-    <select id="selectUserpwForChangepw" resultType="string" parameterType="string" >
-    	select password
-    	from term
-    	where userid = #{userid}
-    </select>
 </mapper>
