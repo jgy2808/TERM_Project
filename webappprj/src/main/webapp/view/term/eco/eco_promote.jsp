@@ -15,36 +15,98 @@
     <link rel="stylesheet" href="../../resource/term/eco/assets/css/Header-Blue.css">
     <link rel="stylesheet" href="../../resource/term/eco/assets/css/styles.css">
     <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+    
+    <link rel="stylesheet" href="../../resource/term/main/assets/fonts/fontawesome-all.min.css">
+	<link rel="stylesheet" href="../../resource/term/main/assets/fonts/font-awesome.min.css">
+	<link rel="stylesheet" href="../../resource/term/main/assets/fonts/fontawesome5-overrides.min.css">
+	<link rel="stylesheet" href="../../resource/term/main/assets/css/Header-Blue.css">
+	<link rel="stylesheet" href="../../resource/term/main/assets/css/styles.css">
+	<script src="../../resource/term/main/assets/bootstrap/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-    <header class="header-blue" style="background: rgb(92,198,186);height: 72.594px;">
-        <nav class="navbar navbar-dark navbar-expand-md navigation-clean-search">
-            <div class="container-fluid"><i class="fa fa-chevron-left" style="width: 30px;height: 30px;font-size: 24px;color: rgb(255,255,255);"></i> <a class="navbar-brand" href="#">친환경 홍보</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navcol-1" style="background: rgb(92,198,186);">
-                    <ul class="navbar-nav">
-                        <li class="nav-item"><a class="nav-link" href="#">검색</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#" style="color: rgba(255,255,255,0.55);">지도</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#" style="color: rgba(255,255,255,0.55);">친환경 홍보</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#" style="color: rgba(255,255,255,0.55);">알림 설정</a></li>
-                        <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#">게시판</a>
-                            <div class="dropdown-menu"><a class="dropdown-item" href="#">정보 게시판</a><a class="dropdown-item" href="#">나눔 게시판</a></div>
-                        </li>
-                    </ul>
-                    <form class="d-flex me-auto navbar-form" target="_self">
-                        <div class="d-flex align-items-center"><label class="form-label d-flex mb-0" for="search-field"><i class="fa fa-search"></i></label><input class="form-control search-field" type="search" id="search-field" name="search"></div>
-                    </form><span class="navbar-text"> <a class="login" href="#">Log In</a></span><a class="btn btn-light action-button" role="button" href="#">Sign Up</a>
-                </div>
-            </div>
-        </nav>
-        <div class="container hero">
-            <div class="row">
-                <div class="col-md-5 col-lg-5 offset-lg-1 offset-xl-0 d-none d-lg-block phone-holder">
-                    <div class="phone-mockup"></div>
-                </div>
-            </div>
-        </div>
-    </header>
+    <header class="header-blue"
+		style="background: rgb(92, 198, 186); height: 72.594px;">
+		<nav
+			class="navbar navbar-dark navbar-expand-md navigation-clean-search">
+			<div class="container-fluid">
+				<i class="fa fa-chevron-left"
+					style="width: 30px; height: 30px; font-size: 24px; color: rgb(255, 255, 255);"></i>
+				<a class="navbar-brand" href="#">분리똑똑</a>
+				<button data-bs-toggle="collapse" class="navbar-toggler"
+					data-bs-target="#navcol-1">
+					<span class="visually-hidden">Toggle navigation</span><span
+						class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navcol-1"
+					style="background: rgb(92, 198, 186);">
+					<ul class="navbar-nav">
+						<li class="nav-item"><a class="nav-link" href="#">검색</a></li>
+						<li class="nav-item"><a class="nav-link" href="#"
+							style="color: rgba(255, 255, 255, 0.55);">지도</a></li>
+						<li class="nav-item"><a class="nav-link" href="#"
+							style="color: rgba(255, 255, 255, 0.55);">친환경 홍보</a></li>
+						<li class="nav-item"><a class="nav-link" href="#"
+							style="color: rgba(255, 255, 255, 0.55);">알림 설정</a></li>
+						<li class="nav-item dropdown"><a
+							class="dropdown-toggle nav-link" aria-expanded="false"
+							data-bs-toggle="dropdown" href="#">게시판</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="/board_main/1">정보 게시판</a><a
+									class="dropdown-item" href="/board_main/2">나눔 게시판</a>
+							</div></li>
+					</ul>
+					<form class="d-flex me-auto navbar-form" target="_self">
+						<div class="d-flex align-items-center">
+							<label class="form-label d-flex mb-0" for="search-field"><i
+								class="fa fa-search"></i></label><input
+								class="form-control search-field" type="search"
+								id="search-field" name="search">
+						</div>
+					</form>
+					<!-- <span class="navbar-text"> <a class="login" href="#">Log
+							In</a></span><a class="btn btn-light action-button" role="button" href="#">Sign
+						Up</a> -->
+					<c:catch>
+						<c:choose>
+							<c:when test="${empty userID }">
+								<span class="navbar-text"> <a class="login"
+									href="/main/login">Log In</a>
+								</span>
+								<a class="btn btn-light action-button" role="button"
+									href="/signup">Sign Up</a>
+							</c:when>
+							<c:otherwise>
+								<c:choose>
+									<c:when test="${userID eq '1' }">
+										<li>
+											<p>관리자 ${userID }님, 환영합니다.</p>
+										</li>
+										<a class="btn btn-light action-button" id="logout_btn"
+											role="button" href="/logout.do">Log Out</a>
+									</c:when>
+									<c:otherwise>
+										<span class="navbar-text"> ${userID}님,반갑습니다! </span>
+										<a class="btn btn-light action-button" id="logout_btn"
+											role="button" href="/logout.do">Log Out</a>
+									</c:otherwise>
+								</c:choose>
+							</c:otherwise>
+						</c:choose>
+					</c:catch>
+
+				</div>
+			</div>
+		</nav>
+		<div class="container hero">
+			<div class="row">
+				<div
+					class="col-md-5 col-lg-5 offset-lg-1 offset-xl-0 d-none d-lg-block phone-holder">
+					<div class="phone-mockup"></div>
+				</div>
+			</div>
+		</div>
+	</header>
     <section class="features-boxed">
         <div class="container">
             <div class="row justify-content-center features">
