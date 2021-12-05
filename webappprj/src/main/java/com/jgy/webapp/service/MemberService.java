@@ -1,9 +1,5 @@
 package com.jgy.webapp.service;
 
-import java.sql.SQLException;
-
-import javax.servlet.http.HttpServletResponse;
-
 import org.springframework.stereotype.Service;
 
 @Service
