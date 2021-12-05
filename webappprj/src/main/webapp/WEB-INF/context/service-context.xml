@@ -16,15 +16,18 @@
         https://www.springframework.org/schema/data/jpa/spring-jpa.xsd
         http://mybatis.org/schema/mybatis-spring http://mybatis.org/schema/mybatis-spring.xsd">
 
-	<!-- <jpa:repositories base-package="com.jgy.webapp.jpa" /> -->
 
-	<context:component-scan base-package="com.jgy.webapp.security" />
-	<context:component-scan base-package="com.jgy.webapp.db" />
 	
   	<bean id="basePackage" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
 		<property name="basePackage" value="com.jgy.webapp.mapper" />
 	</bean>
 	
+	<context:component-scan base-package="com.jgy.webapp.security" />
+	<context:component-scan base-package="com.jgy.webapp.service" />
+	<context:component-scan base-package="com.jgy.webapp.mapper" />
+	<context:component-scan base-package="com.jgy.webapp.dao" />
+	<context:component-scan base-package="com.jgy.webapp.domain" />
+		<!-- <jpa:repositories base-package="com.jgy.webapp.jpa" /> -->
 	<!-- <bean id="dataSource"
 		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 		<property name="driverClassName" value="com.mysql.cj.jdbc.Driver" />
@@ -45,11 +48,31 @@
 		<property name="configLocation" value="classpath:config/mybatis-config.xml" />
 		<property name="mapperLocations" value ="classpath*:mapper/**/*.xml" />
 	</bean>
-	
 
-<!-- <bean id="transactionManager"
-		class="org.springframework.orm.jpa.JpaTransactionManager">
-		<property name="entityManagerFactory" ref="entityManagerFactory" />
-	</bean> -->
+	<bean id="sqlSession"
+		class="org.mybatis.spring.SqlSessionTemplate">
+		<constructor-arg index="0" name="sqlSessionFactory"
+			ref="sqlSessionFactory" />
+	</bean>
+
+	<bean id="mailSender2"
+		class="org.springframework.mail.javamail.JavaMailSenderImpl">
+		<property name="host" value="smtp.gmail.com" />
+		<property name="port" value="587" /> 
+		<property name="username" value="noreply.Bunri@gmail.com" /> <!-- 자신의 이메일 아이디 -->
+		<property name="password" value="bunriddokddok12!@" /> <!-- 자신의 비밀번호 -->
+		<!-- 보안연결 TLS과 관련된 설정 -->
+		<property name="javaMailProperties">
+			<props>
+				<prop key="mail.smtp.auth">true</prop>
+				<prop key="mail.smtp.starttls.enable">true</prop>
+				<prop key="mail.smtp.auth">true </prop>
+				<prop key="mail.transport.protocol">smtp</prop>
+				<prop key="mail.debug">true</prop>
+				<prop key="mail.smtp.ssl.trust">smtp.gmail.com</prop>
+				<prop key="mail.smtp.ssl.protocols">TLSv1.2</prop>
+			</props>
+		</property>
+	</bean>
 	
 </beans>

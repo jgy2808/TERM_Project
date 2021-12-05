@@ -20,25 +20,12 @@ public class CustomUserDetailsService  implements UserDetailsService{
 	
 	@Autowired
 	private CustomerMapper customerMapper;
-//	private final UserRepository userRepository;
 	
 	
 	@Override
 	public CustomUserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
 		System.out.println("CustomUserDetailsService : loadUserByUsername()");
-//		return userRepository.findByUsername(username)
-//				.orElseThrow(() -> new UsernameNotFoundException(username + " : 아이디가 존재하지 않습니다."));
 		return customerMapper.loadUserByUsername(username)
 				.orElseThrow(() -> new UsernameNotFoundException("아이디가 존재하지 않습니다."));
-	}	
-	
-//	public Long save(UserDetailsDTO infoDto) {
-//	    BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
-//	    infoDto.setPassword(encoder.encode(infoDto.getPassword()));
-//	    
-//	    return userRepository.save(CustomUserDetails.builder()
-//	        .id(infoDto.getUsername())
-//	        .auth(infoDto.getAuth())
-//	        .pw(infoDto.getPassword()).build()).getCode();
-//	}
+	}
 }

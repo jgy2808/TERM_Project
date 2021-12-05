@@ -43,33 +43,44 @@ public class SignupController {
 	@RequestMapping(value = "/signup/signup.do", produces = "application/json; charset=UTF-8", method = RequestMethod.POST)
 	public String signup_do(@RequestBody Map<String, String> map,
 							HttpServletResponse response) throws SQLException, IOException {
-		System.out.println("name : " + map.get("name"));
-		System.out.println("id : " + map.get("id"));
-		System.out.println("pw : " + map.get("pw"));
-		System.out.println("pw_check : " + map.get("pw_check"));
-		System.out.println("email : " + map.get("email"));
-		System.out.println("nickname : " + map.get("nickname"));
-		System.out.println("area : " + map.get("area"));
+		String username = map.get("name");
+		String userid = map.get("id");
+		String password = map.get("pw");
+		String pw_check = map.get("pw_check");
+		String email = map.get("email");
+		String nickname = map.get("nickname");
+		String area = map.get("area");
+		System.out.println("name : " + username);
+		System.out.println("id : " + userid);
+		System.out.println("pw : " + password);
+		System.out.println("pw_check : " + pw_check);
+		System.out.println("email : " + email);
+		System.out.println("nickname : " + nickname);
+		System.out.println("area : " + area);
 		BCryptPasswordEncoder bCryptPasswordEncoder = new BCryptPasswordEncoder();
 		
 		
-//		if (!idChecked.equals(id) || !idDuplication) {
-//			return "id";
-//		}
-//		
-//		if (!pw.matches("^(?=.*[A-Za-z])(?=.*\\d)(?=.*[$@$!%*#?&])[A-Za-z\\d$@$!%*#?&]{8,}$")) {
-//			return "pw";
-//		} 
-////		else {
-////			pw = bCryptPasswordEncoder.encode(pw);
-////		}
-//		
-//		if (!pw.equals(pw_check)) {
-//			return "pw_check";
-//		}
+		if (!idChecked.equals(userid) || !idDuplication) {
+			return "id";
+		}
 		
-		//customerMapper.insertUserInfo(id, pw, "USER");
-		return "success";
+		if (!password.matches("^(?=.*[A-Za-z])(?=.*\\d)(?=.*[$@$!%*#?&])[A-Za-z\\d$@$!%*#?&]{8,}$")) {
+			return "pw";
+		} 
+		if (!password.equals(pw_check)) {
+			return "pw_check";
+		} else {
+			password = bCryptPasswordEncoder.encode(password);
+		}
+
+		if (!map.get("email").matches("^[0-9a-zA-Z]([-_.]?[0-9a-zA-Z])*@[0-9a-zA-Z]([-_.]?[0-9a-zA-Z])*.[a-zA-Z]{2,3}$")) {
+			return "email";
+		}
+		if (customerMapper.register(username, userid, password, email, nickname, area) == 1) {
+			return "success";	
+		} else {
+			return "register error";
+		}
 	}
 	
 	@ResponseBody

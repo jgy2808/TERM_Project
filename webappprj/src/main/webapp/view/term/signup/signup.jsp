@@ -105,19 +105,23 @@
 				contentType : "application/json; charset=UTF-8",
 				dataType : "text",
 				success : function(val) {
-					alert(val);
-					/* if (val === "id")
+					 if (val === "id")
 						alert("아이디를 다시 확인해주세요");
 					else if (val === "pw")
 						alert("비밀번호를 다시 설정해주세요");
 					else if (val === "pw_check")
 						alert("비밀번호가 일치하지 않습니다.");
-					else if (val === "success")
-						alert(val); */
-						//location.href = "/board";
+					else if (val === "email")
+						alert("이메일 형식을 갖춰주세요.");
+					else if (val === "register error") 
+						alert(val);
+					else {
+						alert(val); 
+						location.href = "/main/login";
+					}
 				},
 				error : function() {
-					alert("fail");
+					alert("signup ajax fail");
 				}
 			});
 		});
