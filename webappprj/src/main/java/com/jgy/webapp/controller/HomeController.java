@@ -79,6 +79,8 @@ public class HomeController {
 		return "index";
 	}
 	
+	
+	
 	@RequestMapping("/board_main/**")
 	public String getList(Model model, HttpServletRequest request) throws Exception{
 		String url = request.getRequestURI();
@@ -147,5 +149,7 @@ public class HomeController {
 		service.write(map);
 		return "success";
 	}
+	
+
 
 }
