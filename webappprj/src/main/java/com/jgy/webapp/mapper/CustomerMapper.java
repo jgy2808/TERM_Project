@@ -38,5 +38,4 @@ public interface CustomerMapper {
 
 	void updateTempUserPw(@Param("userid") String userid, @Param("tempPw") String tempPw);
 
-	String selectUserpwForChangepw(@Param("userid") String userid);
 }
