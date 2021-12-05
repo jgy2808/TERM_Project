@@ -36,7 +36,6 @@ public interface CustomerMapper {
 
 	void write(@Param("data") Map<String, String> data);
 
-	int updateTempUserPw(@Param("userid") String userid, @Param("tempPw") String tempPw);
+	void updateTempUserPw(@Param("userid") String userid, @Param("tempPw") String tempPw);
 
-	String test();
 }

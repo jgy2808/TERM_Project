@@ -17,8 +17,10 @@
 <body>
     <div class="d-flex justify-content-between align-items-center" id="header" style="height: 50px;text-align: center;background: rgb(92, 198, 186);">
     	<i class="fa fa-chevron-left" style="width: 30px;height: 30px;font-size: 24px;color: rgb(255,255,255);"></i>
-    	<label class="form-label" style="color: rgb(255,255,255);font-size: 24px;">아이디 찾기</label
-    	><i class="fa fa-ellipsis-v" style="width: 30px;height: 30px;font-size: 24px;color: rgb(255,255,255);"></i>
+    	<label class="form-label" style="color: rgb(255,255,255);font-size: 24px;">아이디 찾기</label>
+			<!-- fa fa-ellipsis-v-->
+			<i class="" 
+			style="width: 30px; height: 30px; font-size: 24px; color: rgb(255, 255, 255);"></i>
     </div>
     <div class="d-flex flex-column align-items-center">
         <div style="margin: 5px;width: 80%;padding-left: 10px;max-width: 400px;">
