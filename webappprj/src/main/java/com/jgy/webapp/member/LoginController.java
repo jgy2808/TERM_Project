@@ -3,6 +3,9 @@ package com.jgy.webapp.member;
 import java.util.HashMap;
 import java.util.Map;
 
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Controller;
@@ -12,6 +15,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.jgy.webapp.mapper.CustomerMapper;
+import com.jgy.webapp.security.CustomUserDetails;
+import com.jgy.webapp.security.CustomUserDetailsService;
 import com.jgy.webapp.service.MemberService;
 import com.jgy.webapp.service.MemberVO;
 
@@ -25,6 +30,8 @@ public class LoginController {
 	private CustomerMapper customerMapper;
 	@Autowired
 	private MemberService memberService;
+	@Autowired
+	private CustomUserDetailsService customUserDetailsService;
 	
 	private String usernameForFoundid;
 	private String useridForFoundid;
@@ -144,8 +151,38 @@ public class LoginController {
 		}
 	}
 	
+	@RequestMapping("/changepw")
+	public String change_pw() {
+		return "term/changepw/changepw";
+	}
 	
-	
+	@ResponseBody
+	@RequestMapping(value = "/changepw.do", produces = "application/json; charset=UTF-8", method = RequestMethod.POST)
+	public String change_pw_submit(@RequestBody Map<String, String> map, HttpServletRequest request) throws Exception {
+		HttpSession session = request.getSession();
+		BCryptPasswordEncoder bCryptPasswordEncoder = new BCryptPasswordEncoder();
+		String current_pw = map.get("current_pw");
+		String new_pw = map.get("new_pw");
+		String new_pw_check = map.get("new_pw_check");
+		String userid = (String)session.getAttribute("userID");
+		CustomUserDetails user = (CustomUserDetails)customUserDetailsService.loadUserByUsername(userid);
+		
+		if(!bCryptPasswordEncoder.matches(current_pw, user.getPassword())) {
+			return "현재 비밀번호가 일치하지 않습니다.";
+		}
+		
+		if (!new_pw.matches("^(?=.*[A-Za-z])(?=.*\\d)(?=.*[$@$!%*#?&])[A-Za-z\\d$@$!%*#?&]{8,}$")) {
+			return "새 비밀번호의 규칙이 맞지 않습니다.";
+		} 
+		
+		if (!new_pw_check.equals(new_pw)) {
+			return "새 비밀번호를 다시 확인해주세요.";
+		} else {
+			new_pw = bCryptPasswordEncoder.encode(new_pw);
+			customerMapper.updateTempUserPw((String)session.getAttribute("userID"), new_pw);
+			return "success";
+		}
+	}
 	
 //	@PostMapping("/view/login.do")
 //	public String login_do(String id, String pw, HttpServletRequest req) throws SQLException {
