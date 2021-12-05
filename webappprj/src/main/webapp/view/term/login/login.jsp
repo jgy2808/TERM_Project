@@ -20,11 +20,10 @@
 	<div class="d-flex justify-content-between align-items-center"
 		id="header"
 		style="height: 50px; text-align: center; background: rgb(92, 198, 186);">
-		<i class="fa fa-chevron-left"
-			style="width: 30px; height: 30px; font-size: 24px; color: rgb(255, 255, 255);"></i><label
-			class="form-label"
-			style="color: rgb(255, 255, 255); font-size: 24px;">로그인</label><i
-			class="fa fa-ellipsis-v"
+		<i class="fa fa-chevron-left" style="width: 30px; height: 30px; font-size: 24px; color: rgb(255, 255, 255);"></i>
+		<label class="form-label" style="color: rgb(255, 255, 255); font-size: 24px;">로그인</label>
+			<!-- fa fa-ellipsis-v-->
+			<i class="" 
 			style="width: 30px; height: 30px; font-size: 24px; color: rgb(255, 255, 255);"></i>
 	</div>
 	<div class="d-flex flex-column align-items-center"
@@ -39,11 +38,11 @@
 					type="password" name="pw" style="margin-top: 10px;"
 					placeholder="비밀번호">
 			</fieldset>
-			<div class="text-start d-flex align-items-center"
+			<!-- <div class="text-start d-flex align-items-center"
 				style="width: 80%; background: rgb(255, 255, 255); border-style: none; margin-top: 5px; max-width: 400px;">
 				<input type="checkbox" id="maintain_login" name="remember_me" style="width: 25px; height: 25px;"> 
 				<label class="form-label" style="margin-left: 5px;">자동 로그인</label>
-			</div>
+			</div> -->
 			<button class="btn btn-primary" type="submit"
 				style="width: 80%; background: rgb(92, 198, 186); margin-top: 10px; max-width: 400px;">로그인</button>
 		</form>
