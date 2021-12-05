@@ -36,16 +36,12 @@
 		where username = #{username} and userid = #{userid} and email = #{email}
 	</select>
 	
-	<update id="updateTempUserPw" parameterType="map">
+	<update id="updateTempUserPw">
 		UPDATE term
 		SET password = #{tempPw}
 		WHERE userid = #{userid}
 	</update>
 	
-	<select id="test" resultType="String">
-		select email
-		from term
-	</select>
     <select id="list" resultType="com.jgy.webapp.domain.BoardVO">
         SELECT board_num, userid, board_category, board_title, board_contents, upload_date FROM BOARD order by board_num desc
     </select>
@@ -70,5 +66,11 @@
     
     <select id="listEco" resultType="com.jgy.webapp.domain.EcoVO">
         SELECT eco_num, eco_name, eco_category, eco_url, eco_contents FROM ECO_PROMOTE
+    </select>
+    
+    <select id="selectUserpwForChangepw" resultType="string" parameterType="string" >
+    	select password
+    	from term
+    	where userid = #{userid}
     </select>
 </mapper>
