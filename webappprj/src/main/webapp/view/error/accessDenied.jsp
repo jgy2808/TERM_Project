@@ -7,6 +7,9 @@
 <title>접근 권한 오류</title>
 </head>
 <body>
-	<h3>여기는 관리자 페이지 입니다.</h3>
+	<script type="text/javascript">
+		alert("접근할 수 없는 페이지 입니다.");
+		location.href = "/main/login";
+	</script>
 </body>
 </html>
