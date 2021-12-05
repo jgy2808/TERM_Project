@@ -87,14 +87,14 @@
 										<a class="btn btn-light action-button" id="logout_btn"
 											role="button" href="/logout.do">Log Out</a>
 										<a class="btn btn-light action-button" id="Board_Write"
-											role="button" href="/board_write">글쓰기</a>
+											role="button" href="/board_main/board_write">글쓰기</a>
 									</c:when>
 									<c:otherwise>
 										<span class="navbar-text"> <a href="/changepw">${userID}</a>님,반갑습니다! </span>
 										<a class="btn btn-light action-button" id="logout_btn"
 											role="button" href="/logout.do">Log Out</a>
 										<a class="btn btn-light action-button" id="Board_Write"
-											role="button" href="/board_write">글쓰기</a>
+											role="button" href="/board_main/board_write">글쓰기</a>
 									</c:otherwise>
 								</c:choose>
 							</c:otherwise>
@@ -125,7 +125,7 @@
 
 						<li class='articleColor${i.count % 2}' style="list-style: none;">
 							<a style="width: 80%" class="subject"
-							href="/detail/${list.board_num}"> <span class="title">
+							href="/board_main/detail/${list.board_num}"> <span class="title">
 									<strong> [ <c:if
 											test='${list.board_category.toString() == "1"}'>정보</c:if> <c:if
 											test='${list.board_category.toString() eq "2"}'>나눔</c:if> ]
