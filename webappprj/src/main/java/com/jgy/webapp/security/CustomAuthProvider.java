@@ -33,10 +33,12 @@ public class CustomAuthProvider implements AuthenticationProvider {
 		CustomUserDetails user = (CustomUserDetails) customUserDetailsService.loadUserByUsername(id);
 //		System.out.println("CustomAuthProvider : userPW : " + user.getPassword());
 		if (!passwordEncoder.matches(pwd, user.getPassword())) {
+			System.out.println("CustomAuthProvider : password match fail");
 			throw new BadCredentialsException("비밀번호가 맞지 않습니다.");
 		} else {
 			System.out.println("Password Matches Success !!");
 		}
+		System.out.println("혹시 예외던지고 계속 진행되나?? 흠.. 그건 아니고");
 		List<GrantedAuthority> authorities = new ArrayList<>();
 //		authorities.add(new SimpleGrantedAuthority("ROLE_" + user.getAuth()));
 		authorities.add(new SimpleGrantedAuthority("ROLE_USER"));
