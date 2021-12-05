@@ -23,8 +23,10 @@ import com.jgy.webapp.service.BoardService;
 @Controller
 public class HomeController {
 	
-	//@Autowired
-	//private MemberService jcon;
+	@RequestMapping("/index")
+	public String index() {
+		return "index";
+	}
 	
 	@Autowired
 	private BoardService service;
