@@ -18,7 +18,7 @@ public class MemberServiceImpl implements MemberService{
 		String content = "";
 		content += "<div align='center' style='border:1px solid black; font-family:verdana'>"
 				+ "<h3 style='color: blue;'>"
-				+ vo.getUserid() + "님의 임시 비밀번호 입니다. 비밀번호를 변경하여 사용하세요.</h3>"
+				+ vo.getUserid() + "님의 임시 비밀번호 입니다.</h3>"
 				+ "<p>임시 비밀번호 : "
 				+ vo.getUserpw() + "</p></div>";
 		String from = "분리똑똑 <noreply.Bunri@gmail.com>";
