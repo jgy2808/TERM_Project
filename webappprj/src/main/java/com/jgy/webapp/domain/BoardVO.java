@@ -2,9 +2,6 @@ package com.jgy.webapp.domain;
 
 import java.util.Date;
 
-import org.springframework.stereotype.Service;
-
-
 public class BoardVO {
 /*
 BOARD_NUM      NOT NULL NUMBER(38)    
