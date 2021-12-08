@@ -8,7 +8,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import com.jgy.webapp.domain.BoardVO;
-import com.jgy.webapp.mapper.CustomerMapper;
 
 @Repository
 public class BoardDAOlmpl implements BoardDAO {

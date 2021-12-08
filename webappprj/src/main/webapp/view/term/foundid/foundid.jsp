@@ -17,12 +17,13 @@
 <body>
     <div class="d-flex justify-content-between align-items-center" id="header" style="height: 50px;text-align: center;background: rgb(92, 198, 186);">
     	<i class="fa fa-chevron-left" style="width: 30px;height: 30px;font-size: 24px;color: rgb(255,255,255);"></i>
-    	<label class="form-label" style="color: rgb(255,255,255);font-size: 24px;">아이디 찾기</label>
+    	<label class="form-label" style="color: rgb(255,255,255);font-size: 24px;">분리똑똑</label>
 			<!-- fa fa-ellipsis-v-->
 			<i class="" 
 			style="width: 30px; height: 30px; font-size: 24px; color: rgb(255, 255, 255);"></i>
     </div>
     <div class="d-flex flex-column align-items-center">
+	<h1 style="padding-left: 5px;border-left-style: solid;border-left-color: rgb(142,142,142);width: 80%;max-width: 400px;margin: 15px;">아이디 찾기</h1>
         <div style="margin: 5px;width: 80%;padding-left: 10px;max-width: 400px;">
         	<label class="form-label">사용자 이름</label>
         	<div></div>
@@ -57,12 +58,11 @@
     				else if (result === "found userid fail")
     					alert("찾으시는 아이디가 존재하지 않습니다.");
     				else {
-    					alert("foundid success");
     					location.href = "/main/login/foundid_success";
     				}
     			},
     			error : function(){
-    				alert("foundid err");
+    				alert("아이디 찾기 과정 중 문제가 생겼습니다.");
     			}
     		});
     	});

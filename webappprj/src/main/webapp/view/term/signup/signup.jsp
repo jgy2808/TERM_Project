@@ -7,12 +7,9 @@
 <meta name="viewport"
 	content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 <title>signup</title>
-<link rel="stylesheet"
-	href="../resource/term/signup/assets/bootstrap/css/bootstrap.min.css">
-<link rel="stylesheet"
-	href="../resource/term/signup/assets/fonts/font-awesome.min.css">
-<link rel="stylesheet"
-	href="../resource/term/signup/assets/css/styles.css">
+<link rel="stylesheet" href="../resource/term/signup/assets/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="../resource/term/signup/assets/fonts/font-awesome.min.css">
+<link rel="stylesheet" href="../resource/term/signup/assets/css/styles.css">
 <script
 	src="../resource/term/signup/assets/bootstrap/js/bootstrap.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -25,13 +22,13 @@
 		<i class="fa fa-chevron-left"
 			style="width: 30px; height: 30px; font-size: 24px; color: rgb(255, 255, 255);"></i><label
 			class="form-label"
-			style="color: rgb(255, 255, 255); font-size: 24px;">회원가입</label>
+			style="color: rgb(255, 255, 255); font-size: 24px;">분리똑똑</label>
 			<!-- fa fa-ellipsis-v-->
 			<i class="" 
 			style="width: 30px; height: 30px; font-size: 24px; color: rgb(255, 255, 255);"></i>
 	</div>
 	<div class="d-flex flex-column align-items-center">
-
+	<h1 style="padding-left: 5px;border-left-style: solid;border-left-color: rgb(142,142,142);width: 80%;max-width: 400px;margin: 15px;">회원가입</h1>
 		<div style="width: 80%; max-width: 400px;">
 			<label class="form-label">사용자 이름</label>
 		</div>
@@ -145,14 +142,14 @@
 					else if (val === "email")
 						alert("이메일 형식을 갖춰주세요.");
 					else if (val === "register error") 
-						alert(val);
+						alert("회원가입을 실패하였습니다.");
 					else {
-						alert(val); 
+						alert("가입을 축하드립니다."); 
 						location.href = "/main/login";
 					}
 				},
 				error : function() {
-					alert("signup ajax fail");
+					alert("회원가입 과정 중 문제가 생겼습니다.");
 				}
 			});
 		});

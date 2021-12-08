@@ -19,11 +19,41 @@
 		<property name="suffix" value=".jsp"></property>
 	</bean>
 	
-
 	<mvc:resources location="/resource/"
 		mapping="/resource/**"></mvc:resources>
 	<mvc:resources location="/securityJSP/"
 		mapping="/securityJSP/**"></mvc:resources>
 
+	<bean id="multipartResolver"
+		class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+		<property name="maxUploadSize" value="2000000" /><!-- 2MB -->
+		<property name="maxInMemorySize" value="2000000" />
+		<property name="defaultEncoding" value="UTF-8">
+		</property>
+	</bean>
+
 	<mvc:annotation-driven />
 </beans>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,9 +1,11 @@
 package com.jgy.webapp.member;
 
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -42,6 +44,12 @@ public class LoginController {
 		return "term/login/login";
 	}
 	
+	@RequestMapping("/main/login.fail")
+	public String board_login_fail(HttpServletResponse response) throws IOException {
+		System.out.println("LoginController : called login fail");
+		return "term/login/login_fail";
+	}
+	
 	@RequestMapping("/main/login/foundid")
 	public String board_login_foundid() {
 		System.out.println("LoginController : called foundid");
@@ -64,6 +72,11 @@ public class LoginController {
 	public String board_login_foundpw_success() {
 		System.out.println("LoginController : called foundpw_success");
 		return "term/foundpw/foundpw_success";	
+	}
+	
+	@RequestMapping("/error/accessDenied")
+	public String accessDenied() {
+		return "error/accessDenied";
 	}
 	
 	@ResponseBody

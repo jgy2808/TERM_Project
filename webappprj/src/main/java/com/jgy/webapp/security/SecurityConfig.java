@@ -1,9 +1,7 @@
 package com.jgy.webapp.security;
 
-import javax.sql.DataSource;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
@@ -11,10 +9,8 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.builders.WebSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
-import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
-import org.springframework.security.web.authentication.rememberme.TokenBasedRememberMeServices;
 import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 
 @Configuration
@@ -86,17 +82,17 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 					.deleteCookies("JSESSIONID")
 					.logoutSuccessUrl("/main/login")
 					//.addLogoutHandler(customLogoutHandler)
-			.and()
-				.rememberMe()
-					.key("uniqueAndSecret")
-//					.rememberMeParameter("remember_me")
-					//.tokenRepository(persistentTokenRepository())
-//			        .userDetailsService(customuserDetailsService)
-			        .authenticationSuccessHandler(customSuccessHandler)
-			        .rememberMeServices(userLoginRememberMeService(customuserDetailsService))
-			.and()
-				.sessionManagement()
-					.sessionFixation().none()
+//			.and()
+//				.rememberMe()
+//					.key("uniqueAndSecret")
+////					.rememberMeParameter("remember_me")
+//					//.tokenRepository(persistentTokenRepository())
+////			        .userDetailsService(customuserDetailsService)
+//			        .authenticationSuccessHandler(customSuccessHandler)
+//			        .rememberMeServices(userLoginRememberMeService(customuserDetailsService))
+//			.and()
+//				.sessionManagement()
+//					.sessionFixation().none()
 			.and()
 				.exceptionHandling().accessDeniedPage("/error/accessDenied")
 			.and()
@@ -104,15 +100,15 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 				.csrf().disable();	
 	}
 	
-	@Bean
-	public UserLoginRememberMeService userLoginRememberMeService(CustomUserDetailsService userDetailsService) {
-		UserLoginRememberMeService token = new UserLoginRememberMeService(userDetailsService);
-		token.setCookieName("REMEMBER-ME");
-		token.setParameter("remember_me");
-		token.setTokenValiditySeconds(1209600);
-		
-		return token;
-	}
+//	@Bean
+//	public UserLoginRememberMeService userLoginRememberMeService(CustomUserDetailsService userDetailsService) {
+//		UserLoginRememberMeService token = new UserLoginRememberMeService(userDetailsService);
+//		token.setCookieName("REMEMBER-ME");
+//		token.setParameter("remember_me");
+//		token.setTokenValiditySeconds(1209600);
+//		
+//		return token;
+//	}
 		
 	@Override
 	protected void configure(AuthenticationManagerBuilder auth) throws Exception {

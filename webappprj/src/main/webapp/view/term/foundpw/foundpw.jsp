@@ -22,12 +22,13 @@
 		<i class="fa fa-chevron-left"
 			style="width: 30px; height: 30px; font-size: 24px; color: rgb(255, 255, 255);"></i><label
 			class="form-label"
-			style="color: rgb(255, 255, 255); font-size: 24px;">비밀번호 찾기</label>
+			style="color: rgb(255, 255, 255); font-size: 24px;">분리똑똑</label>
 			<!-- fa fa-ellipsis-v-->
 			<i class="" 
 			style="width: 30px; height: 30px; font-size: 24px; color: rgb(255, 255, 255);"></i>
 	</div>
 	<div class="d-flex flex-column align-items-center">
+	<h1 style="padding-left: 5px;border-left-style: solid;border-left-color: rgb(142,142,142);width: 80%;max-width: 400px;margin: 15px;">비밀번호 찾기</h1>
 		<div
 			style="margin: 5px; width: 80%; padding-left: 10px; max-width: 400px;">
 			<label class="form-label">사용자 이름</label>
@@ -81,7 +82,7 @@
 					
 				},
 				error : function(){
-					alert("foundpw err");
+					alert("비밀번호 찾기 과정 중 문제가 생겼습니다.");
 				}
 			});
 		});
