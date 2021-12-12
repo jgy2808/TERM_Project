@@ -19,8 +19,9 @@
 <body style="text-align: center;">
 	<div class="d-flex justify-content-between align-items-center"
 		id="header"
-		style="height: 50px; text-align: center; background: rgb(92, 198, 186);">
-		<i class="fa fa-chevron-left" style="width: 30px; height: 30px; font-size: 24px; color: rgb(255, 255, 255);"></i>
+		style="height: 60px; text-align: center; background: rgb(92, 198, 186);">
+		<i class="fa fa-chevron-left" style="width: 30px; height: 30px; font-size: 24px; color: rgb(255, 255, 255);" 
+		onClick="history.back()"></i>
 		<label class="form-label" style="color: rgb(255, 255, 255); font-size: 24px;">분리똑똑</label>
 			<!-- fa fa-ellipsis-v-->
 			<i class="" 
