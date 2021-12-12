@@ -141,9 +141,13 @@
 			<artifactId>commons-fileupload</artifactId>
 			<version>1.4</version>
 		</dependency>
-			
-			
-			
+
+		<dependency>
+			<groupId>com.google.firebase</groupId>
+			<artifactId>firebase-admin</artifactId>
+			<version>6.7.0</version>
+		</dependency>
+				
 	</dependencies>
 	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
