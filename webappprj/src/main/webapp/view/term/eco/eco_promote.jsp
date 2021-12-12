@@ -9,10 +9,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>new_eco</title>
     <link rel="stylesheet" href="../../resource/term/eco/assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="h../../resource/term/ttps://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
+    <link rel="stylesheet" href="../../resource/term/ttps://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
     <link rel="stylesheet" href="../../resource/term/eco/assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="../../resource/term/eco/assets/css/Features-Boxed.css">
     <link rel="stylesheet" href="../../resource/term/eco/assets/css/Header-Blue.css">
+    
     <link rel="stylesheet" href="../../resource/term/eco/assets/css/styles.css">
     <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
     
@@ -26,13 +27,13 @@
 
 <body>
     <header class="header-blue"
-		style="background: rgb(92, 198, 186); height: 72.594px;">
+		style="background: rgb(92, 198, 186); height: 60px;">
 		<nav
 			class="navbar navbar-dark navbar-expand-md navigation-clean-search">
 			<div class="container-fluid">
-				<i class="fa fa-chevron-left"
-					style="width: 30px; height: 30px; font-size: 24px; color: rgb(255, 255, 255);"></i>
-				<a class="navbar-brand" href="#">분리똑똑</a>
+				<i class="fa fa-chevron-left" onclick="history.back()" 
+				style="width: 30px; height: 30px; font-size: 24px; color: rgb(255, 255, 255);"></i>
+				<a class="navbar-brand" href="/">분리똑똑</a>
 				<button data-bs-toggle="collapse" class="navbar-toggler"
 					data-bs-target="#navcol-1">
 					<span class="visually-hidden">Toggle navigation</span><span
@@ -41,16 +42,18 @@
 				<div class="collapse navbar-collapse" id="navcol-1"
 					style="background: rgb(92, 198, 186);">
 					<ul class="navbar-nav">
-						<li class="nav-item"><a class="nav-link" href="#">검색</a></li>
-						<li class="nav-item"><a class="nav-link" href="#"
+						<li class="nav-item"><a class="nav-link" href="/search">검색</a></li>
+						<li class="nav-item"><a class="nav-link" href="/map"
 							style="color: rgba(255, 255, 255, 0.55);">지도</a></li>
-						<li class="nav-item"><a class="nav-link" href="#"
+						<li class="nav-item"><a class="nav-link" href="/eco_promote"
 							style="color: rgba(255, 255, 255, 0.55);">친환경 홍보</a></li>
-						<li class="nav-item"><a class="nav-link" href="#"
+						<li class="nav-item"><a class="nav-link" href="/NewFile"
 							style="color: rgba(255, 255, 255, 0.55);">알림 설정</a></li>
+						<li class="nav-item"><a class="nav-link" href="/eco_calc"
+							style="color: rgba(255, 255, 255, 0.55);">친환경 지수</a></li>
 						<li class="nav-item dropdown"><a
 							class="dropdown-toggle nav-link" aria-expanded="false"
-							data-bs-toggle="dropdown" href="#">게시판</a>
+							data-bs-toggle="dropdown" href="/board_main">게시판</a>
 							<div class="dropdown-menu">
 								<a class="dropdown-item" href="/board_main/1">정보 게시판</a><a
 									class="dropdown-item" href="/board_main/2">나눔 게시판</a>
@@ -71,10 +74,11 @@
 						<c:choose>
 							<c:when test="${empty userID }">
 								<span class="navbar-text"> <a class="login"
-									href="/main/login">Log In</a>
+									style="margin-right: 20px;" href="/main/login">Log In</a>
 								</span>
 								<a class="btn btn-light action-button" role="button"
-									href="/signup">Sign Up</a>
+									style="background: rgba(255, 255, 255, 0); border-style: none; color: rgb(255, 255, 255);" href="/signup">Sign Up</a>
+									
 							</c:when>
 							<c:otherwise>
 								<c:choose>
@@ -83,11 +87,13 @@
 											<p>관리자 ${userID }님, 환영합니다.</p>
 										</li>
 										<a class="btn btn-light action-button" id="logout_btn"
+											style="background: rgba(255, 255, 255, 0); border-style: none; color: rgb(255, 255, 255);"
 											role="button" href="/logout.do">Log Out</a>
 									</c:when>
 									<c:otherwise>
-										<span class="navbar-text"> ${userID}님,반갑습니다! </span>
+										<span class="navbar-text"> <a href="/changepw">${userID}</a>님,반갑습니다! </span>
 										<a class="btn btn-light action-button" id="logout_btn"
+											style="background: rgba(255, 255, 255, 0); border-style: none; color: rgb(255, 255, 255);"
 											role="button" href="/logout.do">Log Out</a>
 									</c:otherwise>
 								</c:choose>
