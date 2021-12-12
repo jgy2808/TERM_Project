@@ -34,7 +34,6 @@ public class HomeController {
 	@Autowired
 	private CustomerMapper customerMapper;
 	
-	
 	@RequestMapping("/tm")
 	public String teachableMachine(HttpServletRequest req) {
 		HttpSession session = req.getSession();
@@ -78,7 +77,10 @@ public class HomeController {
 		return "index";
 	}
 	
-	
+	@RequestMapping("/")
+	public String mainPage()  {
+		return "term/main_page/main_page";
+	}
 	
 	@RequestMapping("/board_main/**")
 	public String getList(Model model, HttpServletRequest request) throws Exception{
@@ -149,6 +151,10 @@ public class HomeController {
 		return "success";
 	}
 	
+	@RequestMapping("/map")
+	public String map() {
+		return "term/map/map";
+	}
 
 
 }
