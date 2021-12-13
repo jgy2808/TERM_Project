@@ -65,10 +65,10 @@ public class RecycleController {
 				// Response 객체에 담겨져 온 분석 결과 (이미지 내의 텍스트) 가 여기서 출력된다.
 				System.out.println("Text : ");
 //				System.out.println(res.getTextAnnotationsList().get(0).getDescription());
-//				result = res.getTextAnnotationsList().get(0).getDescription();
-				StringTokenizer st = new StringTokenizer(res.getTextAnnotationsList().get(0).getDescription(), "\n");
-				result = st.nextToken();
-				System.out.println("String Tokenizer 0 index : " + result);
+				result = res.getTextAnnotationsList().get(0).getDescription();
+//				StringTokenizer st = new StringTokenizer(res.getTextAnnotationsList().get(0).getDescription(), "\n");
+//				result = st.nextToken();
+//				System.out.println("String Tokenizer 0 index : " + result);
 				return result;
 			}
 		} catch (Exception e) {

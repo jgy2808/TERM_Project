@@ -8,7 +8,7 @@
 <meta charset="utf-8">
 <meta name="viewport"
 	content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-<title>Home - Brand</title>
+<title>분리똑똑</title>
 <link rel="stylesheet"
 	href="../../resource/term/main_page/assets/bootstrap/css/bootstrap.min.css">
 <link rel="stylesheet"
@@ -38,7 +38,13 @@
 				<div class="collapse navbar-collapse" id="navcol-2"
 					style="background: rgb(92, 198, 186);">
 					<ul class="navbar-nav">
-						<li class="nav-item"><a class="nav-link" href="/search">검색</a></li>
+						<li class="nav-item dropdown"><a
+							class="dropdown-toggle nav-link" aria-expanded="false"
+							data-bs-toggle="dropdown" href="#">친환경 검색</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="/search_image">사물 검색</a><a
+									class="dropdown-item" href="/search_text">라벨 검색</a>
+							</div></li>
 						<li class="nav-item"><a class="nav-link" href="/map"
 							style="color: rgba(255, 255, 255, 0.55);">지도</a></li>
 						<li class="nav-item"><a class="nav-link" href="/eco_promote"
@@ -101,18 +107,23 @@
 			<div class="carousel-inner">
 				<div class="carousel-item active">
 					<img class="w-100 d-block"
+						src="../../resource/term/main_page/assets/img/KakaoTalk_20211213_123802810.png"
+						alt="Slide Image" style="margin-bottom: 30px;">
+				</div>
+				<div class="carousel-item">
+					<img class="w-100 d-block"
 						src="../../resource/term/main_page/assets/img/KakaoTalk_20211212_013226490.jpg"
 						alt="Slide Image" style="margin-bottom: 30px;">
 				</div>
 				<div class="carousel-item">
 					<img class="w-100 d-block"
 						src="../../resource/term/main_page/assets/img/KakaoTalk_20211212_013222385.png"
-						alt="Slide Image">
+						alt="Slide Image" style="margin-bottom: 30px;">
 				</div>
 				<div class="carousel-item">
 					<img class="w-100 d-block"
 						src="../../resource/term/main_page/assets/img/sigmund-aI4RJ--Mw4I-unsplash.jpg"
-						alt="Slide Image">
+						alt="Slide Image" style="margin-bottom: 30px;">
 				</div>
 				<div class="carousel-item">
 					<img class="w-100 d-block"
@@ -138,63 +149,63 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-4">
-					<div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+					<div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3"
+					onclick="location.href = '/search_image'" style="cursor: pointer;">
 						<div class="d-flex features-icons-icon">
 							<i class="icon-bulb m-auto text-primary"
 								data-bss-hover-animate="pulse"></i>
 						</div>
 						<h3>분리수거 방법</h3>
-						<p class="lead mb-0"></p>
 					</div>
 				</div>
 				<div class="col-lg-4">
-					<div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+					<div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3"
+					onclick="location.href = '/map'" style="cursor: pointer;">
 						<div class="d-flex features-icons-icon">
 							<i class="icon-map m-auto text-primary"
 								data-bss-hover-animate="pulse"></i>
 						</div>
 						<h3>친환경 지도</h3>
-						<p class="lead mb-0"></p>
 					</div>
 				</div>
 				<div class="col-lg-4">
-					<div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+					<div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3"
+					onclick="location.href = '/'" style="cursor: pointer;">
 						<div class="d-flex features-icons-icon">
 							<i class="icon-bell m-auto text-primary"
 								data-bss-hover-animate="pulse"></i>
 						</div>
 						<h3>친환경 알림</h3>
-						<p class="lead mb-0"></p>
 					</div>
 				</div>
 				<div class="col-lg-4">
-					<div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+					<div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3"
+					onclick="location.href = '/eco_calc'" style="cursor: pointer;">
 						<div class="d-flex features-icons-icon">
 							<i class="icon-calculator m-auto text-primary"
 								data-bss-hover-animate="pulse"></i>
 						</div>
 						<h3>친환경 지수</h3>
-						<p class="lead mb-0"></p>
 					</div>
 				</div>
 				<div class="col-lg-4">
-					<div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+					<div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3"
+					onclick="location.href = '/board_main'" style="cursor: pointer;">
 						<div class="d-flex features-icons-icon">
 							<i class="icon-screen-tablet m-auto text-primary"
 								data-bss-hover-animate="pulse"></i>
 						</div>
 						<h3>친환경 게시판</h3>
-						<p class="lead mb-0"></p>
 					</div>
 				</div>
 				<div class="col-lg-4">
-					<div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+					<div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3"
+						onclick="location.href = '/eco_promote'" style="cursor: pointer;">
 						<div class="d-flex features-icons-icon">
-							<i class="icon-user-following m-auto text-primary"
+							<i class="icon-compass m-auto text-primary"
 								data-bss-hover-animate="pulse"></i>
 						</div>
-						<h3>친환경 로그인</h3>
-						<p class="lead mb-0"></p>
+						<h3>친환경 홍보</h3>
 					</div>
 				</div>
 			</div>

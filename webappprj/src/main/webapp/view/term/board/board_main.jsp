@@ -43,7 +43,13 @@
 				<div class="collapse navbar-collapse" id="navcol-1"
 					style="background: rgb(92, 198, 186);">
 						<ul class="navbar-nav">
-						<li class="nav-item"><a class="nav-link" href="/search">검색</a></li>
+						<li class="nav-item dropdown"><a
+							class="dropdown-toggle nav-link" aria-expanded="false"
+							data-bs-toggle="dropdown" href="#">친환경 검색</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="/search_image">사물 검색</a><a
+									class="dropdown-item" href="/search_text">라벨 검색</a>
+							</div></li>
 						<li class="nav-item"><a class="nav-link" href="/map"
 							style="color: rgba(255, 255, 255, 0.55);">지도</a></li>
 						<li class="nav-item"><a class="nav-link" href="/eco_promote"

@@ -16,33 +16,32 @@
     
     <link rel="stylesheet" href="../../resource/term/eco/assets/css/styles.css">
     <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
-    
-    <link rel="stylesheet" href="../../resource/term/main/assets/fonts/fontawesome-all.min.css">
-	<link rel="stylesheet" href="../../resource/term/main/assets/fonts/font-awesome.min.css">
-	<link rel="stylesheet" href="../../resource/term/main/assets/fonts/fontawesome5-overrides.min.css">
-	<link rel="stylesheet" href="../../resource/term/main/assets/css/Header-Blue.css">
-	<link rel="stylesheet" href="../../resource/term/main/assets/css/styles.css">
-	<script src="../../resource/term/main/assets/bootstrap/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-    <header class="header-blue"
+    <header class=""
 		style="background: rgb(92, 198, 186); height: 60px;">
 		<nav
 			class="navbar navbar-dark navbar-expand-md navigation-clean-search">
 			<div class="container-fluid">
-				<i class="fa fa-chevron-left" onclick="history.back()" 
-				style="width: 30px; height: 30px; font-size: 24px; color: rgb(255, 255, 255);"></i>
+			<i class="fa fa-chevron-left" onclick="history.back()"
+					style="width: 30px; height: 30px; font-size: 24px; color: rgb(255, 255, 255);"></i>
 				<a class="navbar-brand" href="/">분리똑똑</a>
 				<button data-bs-toggle="collapse" class="navbar-toggler"
-					data-bs-target="#navcol-1">
+					data-bs-target="#navcol-2">
 					<span class="visually-hidden">Toggle navigation</span><span
 						class="navbar-toggler-icon"></span>
 				</button>
-				<div class="collapse navbar-collapse" id="navcol-1"
+				<div class="collapse navbar-collapse" id="navcol-2"
 					style="background: rgb(92, 198, 186);">
 					<ul class="navbar-nav">
-						<li class="nav-item"><a class="nav-link" href="/search">검색</a></li>
+						<li class="nav-item dropdown"><a
+							class="dropdown-toggle nav-link" aria-expanded="false"
+							data-bs-toggle="dropdown" href="#">친환경 검색</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="/search_image">사물 검색</a><a
+									class="dropdown-item" href="/search_text">라벨 검색</a>
+							</div></li>
 						<li class="nav-item"><a class="nav-link" href="/map"
 							style="color: rgba(255, 255, 255, 0.55);">지도</a></li>
 						<li class="nav-item"><a class="nav-link" href="/eco_promote"
@@ -60,16 +59,8 @@
 							</div></li>
 					</ul>
 					<form class="d-flex me-auto navbar-form" target="_self">
-						<div class="d-flex align-items-center">
-							<label class="form-label d-flex mb-0" for="search-field"><i
-								class="fa fa-search"></i></label><input
-								class="form-control search-field" type="search"
-								id="search-field" name="search">
-						</div>
+						<div class="d-flex align-items-center"></div>
 					</form>
-					<!-- <span class="navbar-text"> <a class="login" href="#">Log
-							In</a></span><a class="btn btn-light action-button" role="button" href="#">Sign
-						Up</a> -->
 					<c:catch>
 						<c:choose>
 							<c:when test="${empty userID }">
@@ -101,17 +92,10 @@
 						</c:choose>
 					</c:catch>
 
+					
 				</div>
 			</div>
 		</nav>
-		<div class="container hero">
-			<div class="row">
-				<div
-					class="col-md-5 col-lg-5 offset-lg-1 offset-xl-0 d-none d-lg-block phone-holder">
-					<div class="phone-mockup"></div>
-				</div>
-			</div>
-		</div>
 	</header>
     <section class="features-boxed">
         <div class="container">

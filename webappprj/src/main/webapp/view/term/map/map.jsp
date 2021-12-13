@@ -1,30 +1,24 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+    pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-<meta charset="utf-8">
-<meta name="viewport"
-	content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-<title>login</title>
-<link rel="stylesheet"
-	href="../../resource/term/login/assets/bootstrap/css/bootstrap.min.css">
-<link rel="stylesheet"
-	href="../../resource/term/login/assets/fonts/font-awesome.min.css">
-<link rel="stylesheet"
-	href="../../resource/term/login/assets/css/styles.css">
+    <meta charset="utf-8">
+    <title>주소로 장소 표시하기</title>
+   <link rel="stylesheet" href="../../resource/term/search/assets/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="../../resource/term/search/assets/css/styles.css">
+<link rel="stylesheet" href="../../resource/term/eco/assets/fonts/font-awesome.min.css">
+<script src="../../resource/term/search/assets/bootstrap/js/bootstrap.min.js"></script>
 </head>
-
-<body style="text-align: center;">
-	<header class=""
+<body>
+<header class=""
 		style="background: rgb(92, 198, 186); height: 60px;">
 		<nav
 			class="navbar navbar-dark navbar-expand-md navigation-clean-search">
-			<div class="container-fluid">
 			<i class="fa fa-chevron-left" onclick="history.back()"
 					style="width: 30px; height: 30px; font-size: 24px; color: rgb(255, 255, 255);"></i>
+			<div class="container-fluid">
 				<a class="navbar-brand" href="/">분리똑똑</a>
 				<button data-bs-toggle="collapse" class="navbar-toggler"
 					data-bs-target="#navcol-2">
@@ -96,47 +90,74 @@
 			</div>
 		</nav>
 	</header>
-	<div class="d-flex flex-column align-items-center"
-		style="background: rgb(255, 255, 255); text-align: center;">
-		<img style="margin-top: 20px; width: 200px; height: 200px;"
-			src="assets/img/ykm.png">
-		<form action="/main/login" method="post">
-			<fieldset class="d-flex flex-column"
-				style="margin-top: 30px; text-align: center; width: 80%; max-width: 400px;">
-				<input class="border rounded" type="text" name="id"
-					placeholder="아이디"> <input class="border rounded"
-					type="password" name="pw" style="margin-top: 10px;"
-					placeholder="비밀번호">
-			</fieldset>
-			<!-- <div class="text-start d-flex align-items-center"
-				style="width: 80%; background: rgb(255, 255, 255); border-style: none; margin-top: 5px; max-width: 400px;">
-				<input type="checkbox" id="maintain_login" name="remember_me" style="width: 25px; height: 25px;"> 
-				<label class="form-label" style="margin-left: 5px;">자동 로그인</label>
-			</div> -->
-			<button class="btn btn-primary" type="submit"
-				style="width: 80%; background: rgb(92, 198, 186); margin-top: 10px; max-width: 400px;">로그인</button>
-		</form>
+<div id="map" style="width:100%;height:750px;"></div>
 
-		<div style="background: rgb(255, 255, 255); margin-top: 30px;">
-			<button class="btn btn-primary" type="button"
-				onclick="location.href='/main/login/foundid'"
-				style="background: rgb(255, 255, 255); color: rgb(0, 0, 0); border-style: none;">아이디
-				찾기</button>
-			<label class="form-label"
-				style="margin-left: 8px; margin-right: 8px;">|</label>
-			<button class="btn btn-primary" type="button"
-				onclick="location.href='/main/login/foundpw'"
-				style="background: rgb(255, 255, 255); color: rgb(0, 0, 0); border-style: none;">비밀번호
-				찾기</button>
-			<label class="form-label"
-				style="margin-left: 8px; margin-right: 8px;">|</label>
-			<button class="btn btn-primary" type="button"
-				onclick="location.href='/signup'"
-				style="color: rgb(0, 0, 0); background: rgb(255, 255, 255); border-style: none;">회원가입</button>
-		</div>
-	</div>
-	<script
-		src="../../resource/term/login/assets/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=7d5990a2997b6fcf630b1e05017f7a5c&libraries=services"></script>
+<script>
+var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
+    mapOption = {
+        center: new daum.maps.LatLng(37.650701, 127.570667), // 지도의 중심좌표
+        level: 5 // 지도의 확대 레벨
+    };  
+
+// 지도를 생성합니다    
+var map = new daum.maps.Map(mapContainer, mapOption); 
+
+// 주소-좌표 변환 객체를 생성합니다
+var geocoder = new daum.maps.services.Geocoder();
+
+var listData = [
+    {
+        groupAddress: '서울특별시 중랑구 신내동 신내로 156', 
+    },
+    {
+        groupAddress: '서울특별시 중랑구 신내동 618', 
+    },
+    {
+        groupAddress: '서울 중랑구 신내로 지하 232', 
+    },
+    {
+        groupAddress: '서울 중랑구 묵동 30', 
+    },
+    {
+        groupAddress: '서울 중랑구 상봉동 493', 
+    },
+    {
+        groupAddress: '서울 중랑구 동일로 921-91', 
+    },
+    {
+        groupAddress: '서울 중랑구 동일로 918', 
+    },
+    {
+        groupAddress: '서울 중랑구 동일로 886', 
+    },
+    {
+        groupAddress: '서울 중랑구 동일로 810', 
+    }
+];
+    
+for (var i=0; i < listData.length ; i++) {
+// 주소로 좌표를 검색합니다
+geocoder.addressSearch(listData[i].groupAddress, function(result, status) {
+
+    // 정상적으로 검색이 완료됐으면 
+     if (status === daum.maps.services.Status.OK) {
+
+        var coords = new daum.maps.LatLng(result[0].y, result[0].x);
+
+        // 결과값으로 받은 위치를 마커로 표시합니다
+        var marker = new daum.maps.Marker({
+            map: map,
+            position: coords
+        });
+
+        // 지도의 중심을 결과값으로 받은 위치로 이동시킵니다
+        map.setCenter(coords);
+    } 
+})
+
+
+};    
+</script>
 </body>
-
 </html>
