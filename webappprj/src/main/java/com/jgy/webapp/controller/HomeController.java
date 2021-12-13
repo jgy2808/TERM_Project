@@ -81,6 +81,14 @@ public class HomeController {
 	public String mainPage()  {
 		return "term/main_page/main_page";
 	}
+	@RequestMapping("/search_image")
+	public String search_image()  {
+		return "term/search/search_image";
+	}
+	@RequestMapping("/search_text")
+	public String search_text()  {
+		return "term/search/search_text";
+	}
 	
 	@RequestMapping("/board_main/**")
 	public String getList(Model model, HttpServletRequest request) throws Exception{
