@@ -43,55 +43,25 @@
 							</div></li>
 						<li class="nav-item"><a class="nav-link" href="/map"
 							style="color: rgba(255, 255, 255, 0.55);">지도</a></li>
-						<li class="nav-item"><a class="nav-link" href="/eco_promote"
-							style="color: rgba(255, 255, 255, 0.55);">친환경 홍보</a></li>
-						<li class="nav-item"><a class="nav-link" href="/NewFile"
-							style="color: rgba(255, 255, 255, 0.55);">알림 설정</a></li>
-						<li class="nav-item"><a class="nav-link" href="/eco_calc"
-							style="color: rgba(255, 255, 255, 0.55);">친환경 지수</a></li>
+						<li class="nav-item dropdown"><a
+							class="dropdown-toggle nav-link" aria-expanded="false"
+							data-bs-toggle="dropdown" href="/board_main">친환경 서비스</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="/eco_promote">친환경 홍보</a>
+								<a class="dropdown-item" href="/NewFile">알림 설정</a>
+								<a class="dropdown-item" href="/eco_calc">친환경 지수</a>
+								<a class="dropdown-item" href="/qna">친환경 Q&A</a>
+							</div>
+						</li>
 						<li class="nav-item dropdown"><a
 							class="dropdown-toggle nav-link" aria-expanded="false"
 							data-bs-toggle="dropdown" href="/board_main">게시판</a>
 							<div class="dropdown-menu">
+								<a class="dropdown-item" href="/board_main">전체 게시판</a>
 								<a class="dropdown-item" href="/board_main/1">정보 게시판</a><a
 									class="dropdown-item" href="/board_main/2">나눔 게시판</a>
 							</div></li>
-					</ul>
-					<form class="d-flex me-auto navbar-form" target="_self">
-						<div class="d-flex align-items-center"></div>
-					</form>
-					<c:catch>
-						<c:choose>
-							<c:when test="${empty userID }">
-								<span class="navbar-text"> <a class="login"
-									style="margin-right: 20px;" href="/main/login">Log In</a>
-								</span>
-								<a class="btn btn-light action-button" role="button"
-									style="background: rgba(255, 255, 255, 0); border-style: none; color: rgb(255, 255, 255);" href="/signup">Sign Up</a>
-									
-							</c:when>
-							<c:otherwise>
-								<c:choose>
-									<c:when test="${userID eq '1' }">
-										<li>
-											<p>관리자 ${userID }님, 환영합니다.</p>
-										</li>
-										<a class="btn btn-light action-button" id="logout_btn"
-											style="background: rgba(255, 255, 255, 0); border-style: none; color: rgb(255, 255, 255);"
-											role="button" href="/logout.do">Log Out</a>
-									</c:when>
-									<c:otherwise>
-										<span class="navbar-text"> <a href="/changepw">${userID}</a>님,반갑습니다! </span>
-										<a class="btn btn-light action-button" id="logout_btn"
-											style="background: rgba(255, 255, 255, 0); border-style: none; color: rgb(255, 255, 255);"
-											role="button" href="/logout.do">Log Out</a>
-									</c:otherwise>
-								</c:choose>
-							</c:otherwise>
-						</c:choose>
-					</c:catch>
-
-					
+					</ul>					
 				</div>
 			</div>
 		</nav>
