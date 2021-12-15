@@ -41,16 +41,21 @@
 							</div></li>
 						<li class="nav-item"><a class="nav-link" href="/map"
 							style="color: rgba(255, 255, 255, 0.55);">지도</a></li>
-						<li class="nav-item"><a class="nav-link" href="/eco_promote"
-							style="color: rgba(255, 255, 255, 0.55);">친환경 홍보</a></li>
-						<li class="nav-item"><a class="nav-link" href="/NewFile"
-							style="color: rgba(255, 255, 255, 0.55);">알림 설정</a></li>
-						<li class="nav-item"><a class="nav-link" href="/eco_calc"
-							style="color: rgba(255, 255, 255, 0.55);">친환경 지수</a></li>
+						<li class="nav-item dropdown"><a
+							class="dropdown-toggle nav-link" aria-expanded="false"
+							data-bs-toggle="dropdown" href="/board_main">친환경 서비스</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="/eco_promote">친환경 홍보</a>
+								<a class="dropdown-item" href="/NewFile">알림 설정</a>
+								<a class="dropdown-item" href="/eco_calc">친환경 지수</a>
+								<a class="dropdown-item" href="/qna">친환경 Q&A</a>
+							</div>
+						</li>
 						<li class="nav-item dropdown"><a
 							class="dropdown-toggle nav-link" aria-expanded="false"
 							data-bs-toggle="dropdown" href="/board_main">게시판</a>
 							<div class="dropdown-menu">
+								<a class="dropdown-item" href="/board_main">전체 게시판</a>
 								<a class="dropdown-item" href="/board_main/1">정보 게시판</a><a
 									class="dropdown-item" href="/board_main/2">나눔 게시판</a>
 							</div></li>
@@ -100,10 +105,11 @@
 				accept="image/*" style="position: absolute; clip: rect(0, 0, 0, 0);"/>
 		</form>
 		<div id="imgContainer"></div>
-		<div>
-		<div id="clabel-container1"></div>
-			<p id="contents">분리 수거 방법 설명</p>
-		</div>
+			<div id="clabel-container1" 
+			style="width: 60%; max-width: 400px; margin: 10px; padding: 20px;
+					border: 3px solid; visibility: hidden;">
+				
+			</div>
 	</div>
 	<script src="../../resource/term/search/assets/bootstrap/js/bootstrap.min.js"></script>
 	
@@ -188,18 +194,38 @@
     }
     async function Imagepredict(label) {
         const prediction = await model.predict(img);
-        let maxPrediction = prediction[0].probability.toFixed(2);
+        //let maxPrediction = prediction[0].probability.toFixed(2);
+        let maxPrediction = 0;
         let maxID = "";
         let classPrediction = "";
-        for (let i = 1; i < maxPredictions; i++) {
+        for (let i = 0; i < maxPredictions; i++) {
             if (maxPrediction < prediction[i].probability.toFixed(2)){
                 maxPrediction = prediction[i].probability.toFixed(2);
                 classPrediction = prediction[i].className;
             }
         }
-        label.innerHTML = classPrediction + ": " + maxPrediction;
-      
-
+        if (classPrediction === "") {
+        	alert("죄송합니당 사진을 다시 입력해주세용");
+        }
+        var data = {
+        		recycle_title : classPrediction
+        };
+        $.ajax({
+    		url : "/search_image.do",
+    		type : "POST",
+    		data : data,
+			success : function(val) {
+				//alert(val);
+				classPrediction += ("는 " + val);
+				label.innerHTML = classPrediction;
+	            label.style.visibility = "visible";
+			},
+			error : function() {
+				alert("fail");
+			}
+    	});
+        
+        
     }
     // run the webcam image through the image model
     async function predict() {
@@ -211,6 +237,25 @@
             labelContainer.childNodes[i].innerHTML = classPrediction;
         }
     }
+    
+    /* $("#write").on("click", function(){
+    	var tmp = $("#select_category button.dropdown-toggle").text().substr(0,2);
+    	if(tmp == "정보")
+    		var category = 1;
+    	else if(tmp == "나눔")
+    		var category = 2;
+    	else
+    		var category = 0; // 0은 미선택
+    	var test = $("#select_category button.dropdown-toggle").text();
+    	var title = $("textarea[name=title]").val();
+    	var contents = $("textarea[name=contents]").val();
+    	var data ={
+    		"category" : category,
+    		"title" : title,
+    		"contents" : contents
+    	}
+    	
+    }); */
 </script>
 </body>
 
