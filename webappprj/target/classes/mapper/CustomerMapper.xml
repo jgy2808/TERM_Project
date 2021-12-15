@@ -4,67 +4,68 @@
   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.jgy.webapp.mapper.CustomerMapper">
  	 <select id="loadUserByUsername" resultType="CustomUserDetails">
-		SELECT userid, password FROM term 
+		SELECT userid, password FROM member 
 		WHERE userid = #{id}
 	</select>
 	
 	<select id="selectUserIdDistinct" resultType="int">
 		SELECT count(*) 
-		FROM term
+		FROM member
 		where userid = #{id}
 	</select>
 	
-	<insert id="insertUserInfo" parameterType="map">
-		INSERT INTO term1 (id, pw, auth)
-		VALUES (#{id}, #{pw}, #{auth})
-	</insert>
-	
 	<insert id="register" parameterType="map">
-		INSERT INTO term
+		INSERT INTO member
 		VALUES ( #{userid}, #{username}, #{password}, #{email}, #{nickname}, #{area})
 	</insert>
 	
 	<select id="selectUserIdForFoundid" resultType="String">
  		SELECT userid
-		FROM term
+		FROM member
 		where username = #{username} and email = #{email}
 	</select>
 	
 	<select id="selectUserPw" resultType="int">
  		SELECT count(*)
-		FROM term
+		FROM member
 		where username = #{username} and userid = #{userid} and email = #{email}
 	</select>
 	
 	<update id="updateTempUserPw">
-		UPDATE term
+		UPDATE member
 		SET password = #{tempPw}
 		WHERE userid = #{userid}
 	</update>
 	
     <select id="list" resultType="com.jgy.webapp.domain.BoardVO">
-        SELECT board_num, userid, board_category, board_title, board_contents, upload_date FROM BOARD order by board_num desc
+        SELECT board_num, board_userid, board_category, board_title, board_contents, board_date FROM board order by board_num desc
     </select>
     
     <select id="getCount" resultType="int">
-        SELECT MAX(board_num) FROM BOARD
+        SELECT MAX(board_num) FROM board
     </select>
     
     <select id="searchItem" resultType="com.jgy.webapp.domain.BoardVO">
-    	SELECT board_num, userid, board_category, board_title, board_contents, upload_date FROM BOARD WHERE board_num = #{num}
+    	SELECT board_num, board_userid, board_category, board_title, board_contents, board_date FROM board WHERE board_num = #{num}
     </select>
     
     <select id="listCate" resultType="com.jgy.webapp.domain.BoardVO">
-        SELECT board_num, userid, board_category, board_title, board_contents, upload_date FROM BOARD where board_category = #{cate} order by board_num desc
+        SELECT board_num, board_userid, board_category, board_title, board_contents, board_date FROM board where board_category = #{cate} order by board_num desc
     </select>
     
     <insert id="write" parameterType="hashMap">
     	INSERT INTO
-    	BOARD(board_num,userid,board_category,board_title,board_contents)
+    	board(board_num,board_userid,board_category,board_title,board_contents)
     	values(#{board_num},#{userid},#{category},#{title},#{contents})
     </insert>
     
     <select id="listEco" resultType="com.jgy.webapp.domain.EcoVO">
-        SELECT eco_num, eco_name, eco_category, eco_url, eco_contents FROM ECO_PROMOTE
+        SELECT eco_num, eco_name, eco_category, eco_url, eco_contents FROM eco_promote
+    </select>
+    
+    <select id="search_image" resultType="string">
+    	select recycle_contents
+		from RECYCLE_INFO
+		where recycle_title = #{recycle_title}
     </select>
 </mapper>
