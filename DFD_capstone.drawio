@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-07T03:06:50.159Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="kuZaNFwvABuezuK1XGPC" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-07T03:11:39.267Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="6JPKxGV_h_q5tVlWPlUL" version="15.9.6" type="github">
   <diagram id="uyy2j0fEylNc8Pu5PRSM" name="페이지-1">
-    <mxGraphModel dx="2966" dy="1631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="2595" dy="1428" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -64,19 +64,19 @@
         <mxCell id="exIGDDAsjf5PF7rCGTXC-22" value="블록체인으로 발행된 상품권" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
           <mxGeometry x="690" y="749" width="410" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="exIGDDAsjf5PF7rCGTXC-23" value="블록체인으로&lt;br&gt;상품권 관리" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=24;" vertex="1" parent="1">
+        <mxCell id="exIGDDAsjf5PF7rCGTXC-23" value="블록체인으로&lt;br&gt;상품권 관리" style="ellipse;whiteSpace=wrap;html=1;fontSize=24;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="500" y="700" width="180" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="exIGDDAsjf5PF7rCGTXC-24" value="업체 정보&lt;br&gt;수정하기" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=24;" vertex="1" parent="1">
+        <mxCell id="exIGDDAsjf5PF7rCGTXC-24" value="업체 정보&lt;br&gt;수정하기" style="ellipse;whiteSpace=wrap;html=1;fontSize=24;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="1390" y="160" width="180" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="exIGDDAsjf5PF7rCGTXC-26" value="이벤트 관리" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=24;" vertex="1" parent="1">
+        <mxCell id="exIGDDAsjf5PF7rCGTXC-26" value="이벤트 관리" style="ellipse;whiteSpace=wrap;html=1;fontSize=24;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="500" y="920" width="180" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="exIGDDAsjf5PF7rCGTXC-27" value="가게 검색하기" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=24;" vertex="1" parent="1">
+        <mxCell id="exIGDDAsjf5PF7rCGTXC-27" value="가게 검색하기" style="ellipse;whiteSpace=wrap;html=1;fontSize=24;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="1460" y="580" width="180" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="exIGDDAsjf5PF7rCGTXC-33" value="회원&lt;br&gt;관리하기" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=24;" vertex="1" parent="1">
+        <mxCell id="exIGDDAsjf5PF7rCGTXC-33" value="회원&lt;br&gt;관리하기" style="ellipse;whiteSpace=wrap;html=1;fontSize=24;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="550" y="395" width="180" height="180" as="geometry" />
         </mxCell>
         <mxCell id="exIGDDAsjf5PF7rCGTXC-39" value="가고자 하는 &lt;br&gt;가게 이름&lt;br&gt;또는 가게 분류" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
@@ -187,8 +187,8 @@
         <mxCell id="exIGDDAsjf5PF7rCGTXC-93" value="업체 일련번호" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
           <mxGeometry x="860" y="670" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="exIGDDAsjf5PF7rCGTXC-94" value="상품권 사용하기" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=24;" vertex="1" parent="1">
-          <mxGeometry x="1770" y="730" width="180" height="180" as="geometry" />
+        <mxCell id="exIGDDAsjf5PF7rCGTXC-94" value="상품권 사용하기" style="ellipse;whiteSpace=wrap;html=1;fontSize=24;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="720" width="180" height="180" as="geometry" />
         </mxCell>
         <mxCell id="exIGDDAsjf5PF7rCGTXC-95" value="" style="endArrow=classic;html=1;rounded=0;fontSize=24;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -215,7 +215,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="exIGDDAsjf5PF7rCGTXC-100" value="상품권" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
-          <mxGeometry x="1730" y="630" width="130" height="40" as="geometry" />
+          <mxGeometry x="1750" y="630" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="exIGDDAsjf5PF7rCGTXC-101" value="상품권 서비스" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
           <mxGeometry x="1880" y="630" width="180" height="40" as="geometry" />
