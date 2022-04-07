@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-07T03:11:39.267Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="6JPKxGV_h_q5tVlWPlUL" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-07T03:14:25.816Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="nnTeyDlez2cKcRZO53qH" version="15.9.6" type="github">
   <diagram id="uyy2j0fEylNc8Pu5PRSM" name="페이지-1">
     <mxGraphModel dx="2595" dy="1428" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -56,7 +56,7 @@
           <mxGeometry x="840" y="410" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="exIGDDAsjf5PF7rCGTXC-20" value="업체 정보" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
-          <mxGeometry x="1660" y="170" width="110" height="60" as="geometry" />
+          <mxGeometry x="1620" y="200" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="exIGDDAsjf5PF7rCGTXC-21" value="진행중인 이벤트 정보" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
           <mxGeometry x="740" y="940" width="250" height="40" as="geometry" />
