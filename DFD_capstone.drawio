@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-07T03:02:15.064Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="R7SPbOr1lUYgdsLuJYli" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-07T03:06:50.159Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="kuZaNFwvABuezuK1XGPC" version="15.9.6" type="github">
   <diagram id="uyy2j0fEylNc8Pu5PRSM" name="페이지-1">
-    <mxGraphModel dx="2595" dy="1428" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="2966" dy="1631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -165,22 +165,22 @@
         </mxCell>
         <mxCell id="exIGDDAsjf5PF7rCGTXC-89" value="" style="endArrow=classic;html=1;rounded=0;fontSize=24;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1430" y="710" as="sourcePoint" />
+            <mxPoint x="1440" y="640" as="sourcePoint" />
             <mxPoint x="1280" y="584.9999999999998" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1280" y="710" />
+              <mxPoint x="1280" y="640" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="exIGDDAsjf5PF7rCGTXC-90" value="가게 이름" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
-          <mxGeometry x="1300" y="710" width="110" height="50" as="geometry" />
+          <mxGeometry x="1310" y="645" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="exIGDDAsjf5PF7rCGTXC-92" value="" style="endArrow=classic;html=1;rounded=0;fontSize=24;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="688" y="710" as="sourcePoint" />
-            <mxPoint x="1168" y="590" as="targetPoint" />
+            <mxPoint x="1120" y="590" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1168" y="710" />
+              <mxPoint x="1120" y="710" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -231,6 +231,18 @@
         </mxCell>
         <mxCell id="exIGDDAsjf5PF7rCGTXC-103" value="상품권 서비스" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
           <mxGeometry x="1570" y="1040" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="exIGDDAsjf5PF7rCGTXC-104" value="" style="endArrow=classic;html=1;rounded=0;fontSize=24;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1450" y="720" as="sourcePoint" />
+            <mxPoint x="1160" y="950" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1160" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="exIGDDAsjf5PF7rCGTXC-105" value="가게 정보" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="730" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
