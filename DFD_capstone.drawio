@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-10T11:52:26.854Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="QrCci_oB_BDG5-8rFCxx" version="17.4.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-04-10T11:56:01.252Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="hbQPdwqFYo5eq5z61e72" version="17.4.2" type="github" pages="2">
   <diagram id="uyy2j0fEylNc8Pu5PRSM" name="페이지-1">
-    <mxGraphModel dx="7971" dy="1729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="2336" pageHeight="1654" background="none" math="0" shadow="0">
+    <mxGraphModel dx="5590" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="2336" pageHeight="1654" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -638,24 +638,12 @@
         <mxCell id="0ZqWgf02om3S5ls8BMed-42" value="상품권 저장소" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;fontSize=24;" vertex="1" parent="1">
           <mxGeometry x="2450" y="910" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0ZqWgf02om3S5ls8BMed-44" value="사용할 상품권" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
-          <mxGeometry x="2130" y="1050" width="155" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="0ZqWgf02om3S5ls8BMed-46" value="" style="endArrow=classic;html=1;rounded=0;fontSize=24;strokeColor=default;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2820" y="1010" as="sourcePoint" />
             <mxPoint x="2600" y="980" as="targetPoint" />
             <Array as="points">
               <mxPoint x="2600" y="1010" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="0ZqWgf02om3S5ls8BMed-47" value="" style="endArrow=classic;html=1;rounded=0;fontSize=24;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2210" y="1029.47" as="sourcePoint" />
-            <mxPoint x="2300" y="1080" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="2300" y="1030" />
             </Array>
           </mxGeometry>
         </mxCell>
