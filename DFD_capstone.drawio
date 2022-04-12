@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-12T11:48:15.575Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="WWjl0_uX1UkIBVGlGRIN" version="17.4.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-04-12T11:48:47.299Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="AoV73gYYO6t6W9Da3CJg" version="17.4.2" type="github" pages="2">
   <diagram id="uyy2j0fEylNc8Pu5PRSM" name="구연 작업">
     <mxGraphModel dx="5316" dy="1210" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" background="none" math="0" shadow="0">
       <root>
@@ -2773,11 +2773,23 @@
             <mxPoint x="4552" y="6509.2300000000005" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="c-d1eSrAXzo8OPXt341t-68" value="상품권 정" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="4386" y="6430" width="224" height="70" as="geometry" />
+        <mxCell id="c-d1eSrAXzo8OPXt341t-68" value="상품권 정보" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="4386" y="6450" width="184" height="50" as="geometry" />
         </mxCell>
         <mxCell id="c-d1eSrAXzo8OPXt341t-69" value="가게" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
           <mxGeometry x="4234" y="6490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c-d1eSrAXzo8OPXt341t-70" value="" style="endArrow=classic;html=1;rounded=0;fontSize=24;fontStyle=0" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4838" y="6509.2300000000005" as="sourcePoint" />
+            <mxPoint x="4988" y="6509.2300000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c-d1eSrAXzo8OPXt341t-71" value="상품권 신청서" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="4822" y="6450" width="178" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c-d1eSrAXzo8OPXt341t-72" value="관리자" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="5024" y="6480" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
