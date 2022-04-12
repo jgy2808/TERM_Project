@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-12T06:21:46.134Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="ebl-A9Wh58lt-piqnxa1" version="17.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-12T06:59:43.675Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="IR-0Y5BDY340dqGf0MkB" version="17.4.2" type="github">
   <diagram id="uyy2j0fEylNc8Pu5PRSM" name="페이지-1">
-    <mxGraphModel dx="12122" dy="3025" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" background="none" math="0" shadow="0">
+    <mxGraphModel dx="7155" dy="1008" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1560,6 +1560,9 @@
         </mxCell>
         <mxCell id="ZDQ_7sAMxMQN1uMGvQG0-19" value="이벤트 정보" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
           <mxGeometry x="4897" y="396.75" width="143" height="38.5" as="geometry" />
+        </mxCell>
+        <mxCell id="kYxCmN6vkYvL5MP_P07b-1" value="&lt;font style=&quot;font-size: 24px&quot;&gt;2. 1차 분할도&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4410" y="850" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
