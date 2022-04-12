@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-12T07:47:47.609Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="i5jxHrwY0TggAtIluZrj" version="17.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-12T07:50:56.994Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="AKqfe9u6FOgyA4LQmA0y" version="17.4.2" type="github">
   <diagram id="uyy2j0fEylNc8Pu5PRSM" name="페이지-1">
     <mxGraphModel dx="7652" dy="1210" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" background="none" math="0" shadow="0">
       <root>
@@ -2021,7 +2021,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="kYxCmN6vkYvL5MP_P07b-144" value="개인 정보 자료철" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;fontSize=24;" vertex="1" parent="1">
-          <mxGeometry x="5990" y="1360" width="200" height="60" as="geometry" />
+          <mxGeometry x="6000" y="1387.5" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kYxCmN6vkYvL5MP_P07b-145" value="검색 키워드" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
           <mxGeometry x="4661" y="2072.5" width="150" height="30" as="geometry" />
@@ -2065,20 +2065,20 @@
         <mxCell id="kYxCmN6vkYvL5MP_P07b-162" value="가게 정보 검색" style="ellipse;whiteSpace=wrap;html=1;fontSize=24;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="6590" y="1210" width="180" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="kYxCmN6vkYvL5MP_P07b-163" value="고객" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
-          <mxGeometry x="6860" y="730" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="kYxCmN6vkYvL5MP_P07b-164" value="관리자" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
-          <mxGeometry x="5430" y="730" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="kYxCmN6vkYvL5MP_P07b-165" value="가게" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
-          <mxGeometry x="6250" y="1960" width="120" height="60" as="geometry" />
+          <mxGeometry x="5382" y="740" width="208" height="100" as="geometry" />
         </mxCell>
         <mxCell id="kYxCmN6vkYvL5MP_P07b-166" value="가게 정보 자료철" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;fontSize=24;" vertex="1" parent="1">
-          <mxGeometry x="6010" y="1160" width="200" height="60" as="geometry" />
+          <mxGeometry x="6000" y="1180" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kYxCmN6vkYvL5MP_P07b-167" value="쿠폰 자료철" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;fontSize=24;" vertex="1" parent="1">
-          <mxGeometry x="6240" y="1288.7500000000002" width="200" height="60" as="geometry" />
+          <mxGeometry x="6310" y="1275.0000000000002" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kYxCmN6vkYvL5MP_P07b-168" value="가게" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="6000" y="1920" width="208" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="kYxCmN6vkYvL5MP_P07b-169" value="고객" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="6720" y="796" width="208" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
