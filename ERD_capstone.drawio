@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-03T12:42:38.187Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="WNLPPMSe3fNECVHWQwqt" version="17.4.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-03T12:44:54.461Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="n8LUdB0FTvDM0wRCAHbp" version="17.4.6" type="github" pages="2">
   <diagram id="VeOAFL4j7yXa4Ecui2jQ" name="ENGLISH">
     <mxGraphModel dx="627" dy="488" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -1341,7 +1341,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1_e6o3uiRI0vNM_zmhHc-10" value="SHOP_EVENT_SHOP_SERIALNUM NUMBER(5) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=1;" parent="1_e6o3uiRI0vNM_zmhHc-8" vertex="1">
+        <mxCell id="1_e6o3uiRI0vNM_zmhHc-10" value="SHOP_EVENT_SHOP_SERIALNUM CHAR(5) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=1;" parent="1_e6o3uiRI0vNM_zmhHc-8" vertex="1">
           <mxGeometry x="30" width="390" height="30" as="geometry">
             <mxRectangle width="390" height="30" as="alternateBounds" />
           </mxGeometry>
