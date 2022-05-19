@@ -15,10 +15,8 @@ import com.jgy.webapp.security.CustomUserDetails;
 public interface CustomerMapper {
 	Optional<CustomUserDetails> loadUserByUsername(String id);
 
-	int register(@Param("username") String username, @Param("userid") String userid, @Param("password") String password,
+	int register( @Param("userid") String userid, @Param("username") String username, @Param("password") String password,
 			@Param("email") String email, @Param("nickname") String nickname, @Param("area") String area);
-
-	int insertUserInfo(@Param("id") String id, @Param("pw") String pw, @Param("auth") String auth);
 
 	int selectUserIdDistinct(@Param("id") String id);
 
@@ -37,5 +35,7 @@ public interface CustomerMapper {
 	void write(@Param("data") Map<String, String> data);
 
 	void updateTempUserPw(@Param("userid") String userid, @Param("tempPw") String tempPw);
+	
+	String search_image(@Param("recycle_title") String recycle_title);
 
 }

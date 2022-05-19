@@ -1,4 +1,4 @@
-package com.jgy.webapp.member;
+package com.jgy.webapp.controller;
 
 import java.io.IOException;
 import java.sql.SQLException;
@@ -26,7 +26,7 @@ public class SignupController {
 	private CustomerMapper customerMapper;
 	
 	private boolean idDuplication = false;
-	private String idChecked;
+	private String idChecked = "";
 	
 	@RequestMapping("/signup")
 	public String signup() {
@@ -72,7 +72,7 @@ public class SignupController {
 		if (!map.get("email").matches("^[0-9a-zA-Z]([-_.]?[0-9a-zA-Z])*@[0-9a-zA-Z]([-_.]?[0-9a-zA-Z])*.[a-zA-Z]{2,3}$")) {
 			return "email";
 		}
-		if (customerMapper.register(username, userid, password, email, nickname, area) == 1) {
+		if (customerMapper.register( userid, username, password, email, nickname, area) == 1) {
 			return "success";	
 		} else {
 			return "register error";

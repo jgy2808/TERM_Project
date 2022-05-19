@@ -1,4 +1,4 @@
-package com.jgy.webapp.member;
+package com.jgy.webapp.controller;
 
 import java.io.IOException;
 import java.util.HashMap;

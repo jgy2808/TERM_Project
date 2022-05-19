@@ -27,7 +27,8 @@
 	<header class="header-blue"
 		style="background: rgb(92, 198, 186); height: 60px;">
 		<nav
-			class="navbar navbar-dark navbar-expand-md navigation-clean-search">
+			class="navbar navbar-dark navbar-expand-md navigation-clean-search"
+			style="z-index: 1;">
 			<div class="container-fluid">
 				<a class="navbar-brand" href="#">분리똑똑</a>
 				<button data-bs-toggle="collapse" class="navbar-toggler"
@@ -47,16 +48,21 @@
 							</div></li>
 						<li class="nav-item"><a class="nav-link" href="/map"
 							style="color: rgba(255, 255, 255, 0.55);">지도</a></li>
-						<li class="nav-item"><a class="nav-link" href="/eco_promote"
-							style="color: rgba(255, 255, 255, 0.55);">친환경 홍보</a></li>
-						<li class="nav-item"><a class="nav-link" href="/NewFile"
-							style="color: rgba(255, 255, 255, 0.55);">알림 설정</a></li>
-						<li class="nav-item"><a class="nav-link" href="/eco_calc"
-							style="color: rgba(255, 255, 255, 0.55);">친환경 지수</a></li>
+						<li class="nav-item dropdown"><a
+							class="dropdown-toggle nav-link" aria-expanded="false"
+							data-bs-toggle="dropdown" href="/board_main">친환경 서비스</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="/eco_promote">친환경 홍보</a>
+								<a class="dropdown-item" href="/NewFile">알림 설정</a>
+								<a class="dropdown-item" href="/eco_calc">친환경 지수</a>
+								<a class="dropdown-item" href="/qna">친환경 Q&A</a>
+							</div>
+						</li>
 						<li class="nav-item dropdown"><a
 							class="dropdown-toggle nav-link" aria-expanded="false"
 							data-bs-toggle="dropdown" href="/board_main">게시판</a>
 							<div class="dropdown-menu">
+								<a class="dropdown-item" href="/board_main">전체 게시판</a>
 								<a class="dropdown-item" href="/board_main/1">정보 게시판</a><a
 									class="dropdown-item" href="/board_main/2">나눔 게시판</a>
 							</div></li>
@@ -103,7 +109,7 @@
 	<section
 		class="text-center bg-light d-flex flex-column align-items-center features-icons">
 		<div class="carousel slide" data-bs-ride="carousel" id="carousel-1"
-			style="width: 80%;">
+			style="width: 80%; z-index: 0;">
 			<div class="carousel-inner">
 				<div class="carousel-item active">
 					<img class="w-100 d-block"
@@ -144,6 +150,7 @@
 				<li data-bs-target="#carousel-1" data-bs-slide-to="1"></li>
 				<li data-bs-target="#carousel-1" data-bs-slide-to="2"></li>
 				<li data-bs-target="#carousel-1" data-bs-slide-to="3"></li>
+				<li data-bs-target="#carousel-1" data-bs-slide-to="4"></li>
 			</ol>
 		</div>
 		<div class="container">
@@ -293,6 +300,16 @@
 						<li class="list-inline-item"><a href="https://www.instagram.com/kwon._.moya/?hl=ko"><i
 								class="fa fa-instagram fa-2x fa-fw"></i></a></li>
 					</ul>
+				</div>
+				
+				<div class="col-lg-6 text-center text-lg-start my-auto h-100">
+					<p class="text-muted small mb-4 mb-lg-0">
+						&nbsp;</p>
+				</div>
+				
+				<div class="col-lg-6 text-center text-lg-start my-auto h-100">
+					<p class="text-muted small mb-4 mb-lg-0" style="text-align: right;">
+						Send Direct Message to manager.</p>
 				</div>
 			</div>
 		</div>

@@ -28,20 +28,20 @@
 	<context:component-scan base-package="com.jgy.webapp.dao" />
 	<context:component-scan base-package="com.jgy.webapp.domain" />
 		<!-- <jpa:repositories base-package="com.jgy.webapp.jpa" /> -->
-	<!-- <bean id="dataSource"
-		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
-		<property name="driverClassName" value="com.mysql.cj.jdbc.Driver" />
-		<property name="url" value="jdbc:mysql://localhost:3306/springdb" />
-		<property name="username" value="root" />
-		<property name="password" value="root" />
-	</bean> -->
 	<bean id="dataSource"
 		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
-		<property name="driverClassName" value="oracle.jdbc.OracleDriver" />
-		<property name="url" value="jdbc:oracle:thin:@localhost:1521:xe" />
-		<property name="username" value="scott" />
-		<property name="password" value="tiger" />
+		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
+		<property name="url" value="jdbc:mysql://term-db.ckzrmntvkc2x.ap-northeast-2.rds.amazonaws.com:3306/term" />
+		<property name="username" value="bunriDdokDdok" />
+		<property name="password" value="bunri1234" />
 	</bean>
+<!-- 	<bean id="dataSource"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="oracle.jdbc.OracleDriver" />
+		<property name="url" value="jdbc:oracle:thin:@218.235.103.110:1521:xe" />
+		<property name="username" value="bunriDdokDdok" />
+		<property name="password" value="bunri1234" />
+	</bean> -->
 		
 	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
 		<property name="dataSource" ref="dataSource" />

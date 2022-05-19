@@ -9,6 +9,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.StringTokenizer;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -24,9 +25,14 @@ import com.google.cloud.vision.v1.Feature.Type;
 import com.google.cloud.vision.v1.Image;
 import com.google.cloud.vision.v1.ImageAnnotatorClient;
 import com.google.protobuf.ByteString;
+import com.jgy.webapp.mapper.CustomerMapper;
 
 @Controller
 public class RecycleController {
+	
+	@Autowired
+	private CustomerMapper customerMapper;
+	
 	@RequestMapping("/recycle")
 	public String recycle() {
 		return "term/recycle/recycle";
@@ -66,10 +72,14 @@ public class RecycleController {
 				System.out.println("Text : ");
 //				System.out.println(res.getTextAnnotationsList().get(0).getDescription());
 				result = res.getTextAnnotationsList().get(0).getDescription();
-//				StringTokenizer st = new StringTokenizer(res.getTextAnnotationsList().get(0).getDescription(), "\n");
-//				result = st.nextToken();
-//				System.out.println("String Tokenizer 0 index : " + result);
-				return result;
+				StringTokenizer st = new StringTokenizer(res.getTextAnnotationsList().get(0).getDescription(), "\n");
+				result = st.nextToken();
+				System.out.println("String Tokenizer 0 index : " + result);
+				String recycle_contents = customerMapper.search_image(result);
+				System.out.println("recycle_contents : " + recycle_contents);
+				result += ("ดย " + recycle_contents);
+				String real_result = res.getTextAnnotationsList().get(0).getDescription() + "$" + result;
+				return real_result;
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -88,7 +98,7 @@ public class RecycleController {
 		if(it.hasNext()) {
 			List<MultipartFile> mpf = request.getFiles(it.next().toString());
 			for (int i = 0; i < mpf.size(); i++) {
-				String filename = path + "/" + mpf.get(i).getOriginalFilename();
+				String filename = /* path + "/" + */mpf.get(i).getOriginalFilename();
 				System.out.println("filename : " + filename);
 				File file = new File(filename);
 				mpf.get(i).transferTo(file);
