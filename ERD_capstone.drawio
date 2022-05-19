@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-03T12:44:54.461Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="n8LUdB0FTvDM0wRCAHbp" version="17.4.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-19T09:05:33.053Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="T2pE8C79YHFldmsZca5l" version="18.0.2" type="github" pages="2">
   <diagram id="VeOAFL4j7yXa4Ecui2jQ" name="ENGLISH">
-    <mxGraphModel dx="627" dy="488" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1904" dy="672" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1562,6 +1562,24 @@
           <mxGeometry x="30" width="148" height="30" as="geometry">
             <mxRectangle width="148" height="30" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="NKLyzvaCFsW_fOEsFGlP-1" value="블록체인 상품권 생성 과정&lt;br&gt;프로시져" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-49" y="1869" width="152" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="NKLyzvaCFsW_fOEsFGlP-2" value="관리자" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="1951" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NKLyzvaCFsW_fOEsFGlP-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NKLyzvaCFsW_fOEsFGlP-3" target="NKLyzvaCFsW_fOEsFGlP-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NKLyzvaCFsW_fOEsFGlP-3" value="업주" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="474" y="1951" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NKLyzvaCFsW_fOEsFGlP-4" value="사용자" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="318" y="2187" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NKLyzvaCFsW_fOEsFGlP-6" value="요청" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1951" width="34" height="18" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
