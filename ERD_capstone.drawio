@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-11T06:06:57.012Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="XTYxk0MrAIuqMIKmk0bx" version="19.0.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-11T06:15:26.034Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="eincX2a1PAwwngLffnH2" version="19.0.3" type="github" pages="2">
   <diagram id="VeOAFL4j7yXa4Ecui2jQ" name="ENGLISH">
-    <mxGraphModel dx="1121" dy="561" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1890" dy="571" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -947,7 +947,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UQGtxmbjya5NrDrjntjQ-44" value="GIFT_USERID VARCHAR2(20) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=1;" parent="UQGtxmbjya5NrDrjntjQ-42" vertex="1">
+        <mxCell id="UQGtxmbjya5NrDrjntjQ-44" value="GIFT_USERID VARCHAR(20) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=1;" parent="UQGtxmbjya5NrDrjntjQ-42" vertex="1">
           <mxGeometry x="30" width="280" height="30" as="geometry">
             <mxRectangle width="280" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -986,7 +986,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yKSu0Mt8OcYiT_HIrYV8-16" value="GIFT_INFO VARCHAR2(40) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="yKSu0Mt8OcYiT_HIrYV8-14" vertex="1">
+        <mxCell id="yKSu0Mt8OcYiT_HIrYV8-16" value="GIFT_INFO VARCHAR(40) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="yKSu0Mt8OcYiT_HIrYV8-14" vertex="1">
           <mxGeometry x="30" width="280" height="30" as="geometry">
             <mxRectangle width="280" height="30" as="alternateBounds" />
           </mxGeometry>
